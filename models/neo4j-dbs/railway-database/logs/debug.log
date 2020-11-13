@@ -1,0 +1,372 @@
+2020-11-13 14:22:44.261+0000 WARN [o.n.i.p.PageCache] The dbms.memory.pagecache.size setting has not been configured. It is recommended that this setting is always explicitly configured, to ensure the system has a balanced configuration. Until then, a computed heuristic value of 3251769344 bytes will be used instead. Run `neo4j-admin memrec` for memory configuration suggestions.
+2020-11-13 14:22:44.263+0000 INFO [o.n.k.i.f.CommunityEditionModule] No locking implementation specified, defaulting to 'community'
+2020-11-13 14:22:44.269+0000 INFO [o.n.k.AvailabilityGuard] Requirement makes database unavailable: Database available
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics START ---
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Neo4j Kernel properties:
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] apoc.import.file.enabled=true
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.directories.neo4j_home=/home/travis/build/ftsrg/trainbenchmark/trainbenchmark-tool-neo4j/../models/neo4j-dbs/railway-database
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] apoc.export.file.enabled=true
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.edition=community
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] unsupported.dbms.ephemeral=false
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Diagnostics providers:
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.configuration.Config
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] org.neo4j.kernel.info.DiagnosticsManager
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_MEMORY
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_MEMORY
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] OPERATING_SYSTEM
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] JAVA_VIRTUAL_MACHINE
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] CLASSPATH
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] LIBRARY_PATH
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] SYSTEM_PROPERTIES
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] LINUX_SCHEDULERS
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] NETWORK
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] System memory information:
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Total Physical memory: 7.79 GB
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Free Physical memory: 4.17 GB
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Committed virtual memory: 4.43 GB
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Total swap space: 0.00 B
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Free swap space: 0.00 B
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] JVM memory information:
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Free  memory: 478.86 MB
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Total memory: 742.50 MB
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Max   memory: 1.73 GB
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Code Cache (Non-heap memory): committed=41.19 MB, used=40.83 MB, max=240.00 MB, threshold=0.00 B
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Metaspace (Non-heap memory): committed=63.09 MB, used=60.97 MB, max=-1.00 B, threshold=0.00 B
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: Compressed Class Space (Non-heap memory): committed=9.63 MB, used=9.19 MB, max=1.00 GB, threshold=0.00 B
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Eden Space (Heap memory): committed=636.00 MB, used=232.08 MB, max=636.50 MB, threshold=?
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Survivor Space (Heap memory): committed=14.00 MB, used=8.98 MB, max=14.00 MB, threshold=?
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Memory Pool: PS Old Gen (Heap memory): committed=92.50 MB, used=22.58 MB, max=1.30 GB, threshold=0.00 B
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Operating system information:
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Operating System: Linux; version: 4.15.0-1077-gcp; arch: amd64; cpus: 2
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Max number of file descriptors: 30000
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Number of open file descriptors: 147
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Process id: 4469@localhost
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Byte order: LITTLE_ENDIAN
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] Local timezone: UTC
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] JVM information:
+2020-11-13 14:22:44.270+0000 INFO [o.n.k.i.DiagnosticsManager] VM Name: OpenJDK 64-Bit Server VM
+2020-11-13 14:22:44.271+0000 INFO [o.n.k.i.DiagnosticsManager] VM Vendor: Private Build
+2020-11-13 14:22:44.271+0000 INFO [o.n.k.i.DiagnosticsManager] VM Version: 25.252-b09
+2020-11-13 14:22:44.271+0000 INFO [o.n.k.i.DiagnosticsManager] JIT compiler: HotSpot 64-Bit Tiered Compilers
+2020-11-13 14:22:44.271+0000 INFO [o.n.k.i.DiagnosticsManager] VM Arguments: [-Djava.security.manager=worker.org.gradle.process.internal.worker.child.BootstrapSecurityManager, -Dorg.gradle.native=false, -Dfile.encoding=UTF-8, -Duser.country=US, -Duser.language=en, -Duser.variant, -ea]
+2020-11-13 14:22:44.271+0000 INFO [o.n.k.i.DiagnosticsManager] Java classpath:
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-codegen/3.3.5/7cfaa3561029cfde3adacc668637dbcf341c7488/neo4j-codegen-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-frontend-3.1/3.1.8/dbaff215d53c5e48d62d44a3e1d797e04ead0523/neo4j-cypher-frontend-3.1-3.1.8.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.9.0/14fb5f088cc0b0dc90a73ba745bcade4961a3ee3/jackson-databind-2.9.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/5.5.0/a74fd869bb5ad7fe6b4cd29df9543a34aea81164/lucene-core-5.5.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-lucene-index/3.3.5/896ed703026ac09c1a2bdacce7e4153b4343964d/neo4j-lucene-index-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/nashorn.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-gson/1.19.0/b3cdefb990d5212bb2a130525b20e2c44aeffc4c/google-http-client-gson-1.19.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/io.netty/netty-all/4.1.21.Final/d702a5858843dd83725ffcdfd6ed213ae22a8906/netty-all-4.1.21.Final.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/build/ftsrg/trainbenchmark/trainbenchmark-tool-neo4j/build/classes/java/test/
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.1/ed28ded51a8b1c6b112568def5f4b455e6809019/j2objc-annotations-1.1.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/build/ftsrg/trainbenchmark/trainbenchmark-config/build/libs/trainbenchmark-config-1.0.0-SNAPSHOT.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-util/5.2/9408ea14e73b7c9b427545a1b84923d6afaf8e1e/asm-util-5.2.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcpkix-jdk15on/1.53/a95b3dec919267af451256c2e6bf811b7f2da8e6/bcpkix-jdk15on-1.53.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-analyzers-common/5.5.0/1e0e8243a4410be20c34683034fafa7bb52e55cc/lucene-analyzers-common-5.5.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/dk.brics.automaton/automaton/1.11-8/6ebfa65eb431ff4b715a23be7a750cbc4cc96d0f/automaton-1.11-8.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-junit/1.0.0.0/d850748ef35b048e8ad02d1a3212a840feecb328/hamcrest-junit-1.0.0.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/localedata.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graphdb-api/3.3.5/cfbd222eaee5b6bd8d6fff2ca4e9c9c5d519410b/neo4j-graphdb-api-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/23.0/c947004bb13d18182be60077ade044099e4f26f1/guava-23.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.14/775b7e22fb10026eed3f86e8dc556dfafe35f2d5/animal-sniffer-annotations-1.14.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-io/3.3.5/e39dc2897dba4b0262f599756ec9999a85c3b0da/neo4j-io-3.3.5-tests.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j.driver/neo4j-java-driver/1.4.4/4d7ed89e609b5a5eec0acca0421970f177de4957/neo4j-java-driver-1.4.4.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.0/7c10d545325e3a6e72e06381afe469fd40eb701/jackson-annotations-2.9.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.github.mifmif/generex/1.0.1/d8b3573e6d59f0a61dfc37f85dd568ad3bf49e83/generex-1.0.1.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/cldrdata.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.hdrhistogram/HdrHistogram/2.1.9/e4631ce165eb400edecfa32e03d3f1be53dee754/HdrHistogram-2.1.9.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/build/ftsrg/trainbenchmark/trainbenchmark-tool-neo4j/build/resources/main/
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-index/3.3.5/a9f73759a10febe12e697ff146ada14774d739e9/neo4j-index-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j.procedure/apoc/3.3.0.3/421e8c1cfdf4918504382441495deda010673624/apoc-3.3.0.3.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/minlog/1.3.0/ff07b5f1b01d2f92bb00a337f9a94873712f0827/minlog-1.3.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.esotericsoftware/kryo-shaded/4.0.1/8183761ef13a75056fa479ab4e8cbe799f433d5a/kryo-shaded-4.0.1.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.19.0/cdca49ad0977c040f603478aa2e16b2775c8fec6/google-http-client-1.19.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.objenesis/objenesis/2.5.1/272bab9a4e5994757044d1fc43ce480c8cb907a4/objenesis-2.5.1.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-reflect/2.11.12/2bb23c13c527566d9828107ca4108be2a2c06f01/scala-reflect-2.11.12.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.googlecode.concurrentlinkedhashmap/concurrentlinkedhashmap-lru/1.4.2/2eaf3d3c9746d526ff7e5b93931d482c3887e6ac/concurrentlinkedhashmap-lru-1.4.2.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-scala_2.11/1.1.7/4e14ecb11f40f25216ce01dc349f541bc801354f/parboiled-scala_2.11-1.1.7.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graph-algo/3.3.5/3e149710050626dc3ef4a6b5e954f9cfc4ccc4e5/neo4j-graph-algo-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queryparser/5.5.0/fddc49725b562fd48dff0cff004336ad2a090a4/lucene-queryparser-5.5.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-all/1.3/63a21ebc981131004ad02e0434e799fd7f3a8d5a/hamcrest-all-1.3.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher/3.3.5/696ea90644fadafa98f82e76b224545bfd8f3e3b/neo4j-cypher-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/build/ftsrg/trainbenchmark/trainbenchmark-tool-neo4j/build/resources/test
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-frontend-3.2/3.2.10/2f9a4353e199e02988f49c03df3abc9e02ba906d/neo4j-cypher-frontend-3.2-3.2.10.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.github.javafaker/javafaker/0.10/7eb0c6a68902170e73b343b23fd8549f58efeae3/javafaker-0.10.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-values/3.3.5/7aeba8d649e3000145f6e0d6eb76703d2c85474/neo4j-values-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-csv/3.3.5/f85be934486902cb10a3b9d63ae3381fdb6f664e/neo4j-csv-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-kernel/3.3.5/45530344502f40be87598c65d58ac8efa10a2a1a/neo4j-kernel-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/build/ftsrg/trainbenchmark/trainbenchmark-tool-neo4j/build/classes/java/main/
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/in.ashwanthkumar/slack-java-webhook/0.0.6/23fe70a2008a357ec81b07710ad9f2d6323a33a7/slack-java-webhook-0.0.6.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.github.ben-manes.caffeine/caffeine/2.3.3/d2bf5e171800dc17c6a1068078b9b17103705104/caffeine-2.3.3.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.scala-lang/scala-library/2.11.12/bf5534e6fec3d665bd6419c952a929a8bdd4b591/scala-library-2.11.12.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-lucene-upgrade/3.3.5/5b5a3e0fba59b1a42d02f294638747ddcaf87a9b/neo4j-lucene-upgrade-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-math3/3.6.1/e4ba98f1d4b3c80ec46392f25e094a6a2e58fcbf/commons-math3-3.6.1.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/net.minidev/json-smart/2.2.1/5b9e5df7a62d1279b70dc882b041d249c4f0b002/json-smart-2.2.1.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.0] file:/home/travis/.gradle/caches/4.7/workerMain/gradle-worker.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.novell.ldap/jldap/2009-10-07/f95a319a4881f4e109cefa57e97c0516cb6e58d8/jldap-2009-10-07.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-frontend-2.3/2.3.12/d87e903d0b8a10b34ff8f6372362777e51bfbfbe/neo4j-cypher-frontend-2.3-2.3.12.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-exec/1.3/8dfb9facd0830a27b1b5f29f84593f0aeee7773b/commons-exec-1.3.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/icedtea-sound.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunjce_provider.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.5/2852e6e05fbb95076fc091f6d1780f1f8fe35e0f/commons-io-2.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-configuration/3.3.5/d769d73b73272a109e724f44d80220ae7ac3d88e/neo4j-configuration-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-logical-plans-3.3/3.3.5/fa24c06da81bce3c6e87b0b19ba144424ad4fe11/neo4j-cypher-logical-plans-3.3-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/build/ftsrg/trainbenchmark/trainbenchmark-tool/build/libs/trainbenchmark-tool-1.0.0-SNAPSHOT.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-ir-3.2/3.2.10/91550c3707518dc8d42a67b5a8ea453f19ce79cf/neo4j-cypher-ir-3.2-3.2.10.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-unsafe/3.3.5/a116fd58487f8e17714032bebe5ce604826981d3/neo4j-unsafe-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.0/88e7c6220be3b3497b3074d3fc7754213289b987/jackson-core-2.9.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.9/9ce04e34240f674bc72680f8b843b1457383161a/commons-codec-1.9.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-resource/3.3.5/941bbf28e610c3ef8c0ac5bfee4e0e2ab432df79/neo4j-resource-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/net.minidev/accessors-smart/1.1/a527213f2fea112a04c9bdf0ec0264e34104cd08/accessors-smart-1.1.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/jaccess.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunpkcs11.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.0.1/e813b8722c387b22e1adccf7914729db09bcb4a9/httpcore-4.0.1.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.16/3a6274f658487d5bfff9af3862beff6da1e7fd52/slf4j-api-1.7.16.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/sunec.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.0.1/1d7d28fa738bdbfe4fbd895d9486308999bdf440/httpclient-4.0.1.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-tree/5.2/733a8d67f6f4174d12142b7bbcfc496a6d99882e/asm-tree-5.2.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-kernel/3.3.5/3f9055b1fe0e9446fb94e86beabbf14dd7f8894c/neo4j-kernel-3.3.5-tests.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/commons-lang/commons-lang/2.6/ce1edb914c94ebc388f086c6827e8bdeec71ac2/commons-lang-2.6.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/build/ftsrg/trainbenchmark/trainbenchmark-format-graph-neo4j/build/libs/trainbenchmark-format-graph-neo4j-1.0.0-SNAPSHOT.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/zipfs.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-io/3.3.5/d3b24bf39de3e21b0b62e4e293b440c1ca440d12/neo4j-io-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.parboiled/parboiled-core/1.1.7/a60ff9a54cbeb30ec44c89e16ac4c35913cbad5a/parboiled-core-1.1.7.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-codecs/5.5.0/b6d6b847a516b5fee88f7cfcf173cf9564233471/lucene-codecs-5.5.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-common/3.3.5/413c3c6c3db2f709237a6a4032bd7e34311ef094/neo4j-common-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-ssl/3.3.5/ece9e9808cb56381f9639d1244f09b2ff193bf39/neo4j-ssl-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.0.18/5f65affce1684999e2f4024983835efc3504012e/error_prone_annotations-2.0.18.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/com.jayway.jsonpath/json-path/2.2.0/22290d17944bd239fabf5ac69005a60a7ecbbbcb/json-path-2.2.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-logging/3.3.5/ae688273ded0efb980740ac2870cf4aa466750bc/neo4j-logging-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-2.3/2.3.12/72ac3a861e32b681461d74523bfdadeeb6f8a72b/neo4j-cypher-compiler-2.3-2.3.12.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.bouncycastle/bcprov-jdk15on/1.53/9d3def2fa5a0d2ed0c1146e9945df10d29eb4ccb/bcprov-jdk15on-1.53.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.1/5043bfebc3db072ed80fbd362e7caf00e885d8ae/commons-logging-1.1.1.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-graph-matching/3.1.6/163dd8c75d99a402252877fef90dd946ff2134db/neo4j-graph-matching-3.1.6.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-collections/3.3.5/2b042fb6f3fb5346bfdcfd3ec4500d0ff8ab79fa/neo4j-collections-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-3.3/3.3.5/8f860c11253f837a91603d5e490bdaffd60b8f0a/neo4j-cypher-compiler-3.3-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-primitive-collections/3.3.5/49953300108363bccaeb2430b08f78c87c9f2b5c/neo4j-primitive-collections-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-frontend-3.3/3.3.5/b527860c73636d4864242ebbc27ef2ecea85bf28/neo4j-cypher-frontend-3.3-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/in.ashwanthkumar/my-java-utils/0.0.7/96b1f2635a38a1a47dc9842d829a699e6366e007/my-java-utils-0.0.7.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [loader.1] file:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext/dnsns.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-analysis/5.2/2de10833bb3ade1939b1489b7656c9de20343e14/asm-analysis-5.2.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-backward-codecs/5.5.0/68480974b2f54f519763632a7c1c5d51cbff3805/lucene-backward-codecs-5.5.0.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-3.2/3.2.10/55ced4fc587cb5215f2878433427cfb720f12d3a/neo4j-cypher-compiler-3.2-3.2.10.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-compiler-3.1/3.1.8/ab36b035cb4a4ec83b73eed894d4fb0771725775/neo4j-cypher-compiler-3.1-3.1.8.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm/5.2/4ce3ecdc7115bcbf9d4ff4e6ec638e60760819df/asm-5.2.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [bootstrap] /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager]  [classpath + loader.0] file:/home/travis/.gradle/caches/modules-2/files-2.1/org.neo4j/neo4j-cypher-ir-3.3/3.3.5/15a0411d5b47642756e8c16f470491d675a89e51/neo4j-cypher-ir-3.3-3.3.5.jar
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] Library path:
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/java/packages/lib/amd64
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib/x86_64-linux-gnu/jni
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] /lib/x86_64-linux-gnu
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib/x86_64-linux-gnu
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib/jni
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] /lib
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] /usr/lib
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] System.properties:
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] path.separator = :
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding.pkg = sun.io
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.launcher = SUN_STANDARD
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] user.country = US
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] sun.os.patch.level = unknown
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] user.dir = /home/travis/build/ftsrg/trainbenchmark/trainbenchmark-tool-neo4j
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] user.variant = 
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] sun.jnu.encoding = UTF-8
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] org.gradle.native = false
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] user.home = /home/travis
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] user.timezone = UTC
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] file.encoding = UTF-8
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] user.name = travis
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] sun.java.command = worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 11'
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] sun.arch.data.model = 64
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] user.language = en
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] awt.toolkit = sun.awt.X11.XToolkit
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] org.gradle.test.worker = 11
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] file.separator = /
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] sun.io.unicode.encoding = UnicodeLittle
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.endian = little
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] sun.cpu.isalist = 
+2020-11-13 14:22:44.273+0000 INFO [o.n.k.i.DiagnosticsManager] Linux scheduler information:
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] [none] 
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] [none] 
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] [none] 
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] [none] 
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] [none] 
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] [none] 
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] [none] 
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] [none] 
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] [none] 
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] Network information:
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] Interface docker0:
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 172.17.0.1
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] Interface ens4:
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 10.20.0.13
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] Interface lo:
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager]     address: 127.0.0.1
+2020-11-13 14:22:44.274+0000 INFO [o.n.k.i.DiagnosticsManager] --- INITIALIZED diagnostics END ---
+2020-11-13 14:22:44.275+0000 INFO [o.n.k.i.s.f.RecordFormatSelector] Selected format 'RecordFormat:StandardV3_2[v0.A.8]' for the new store
+2020-11-13 14:22:44.329+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.init: indexes not specifically mentioned above are null
+2020-11-13 14:22:44.329+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] No scan store found, this might just be first use. Preparing to rebuild.
+2020-11-13 14:22:44.332+0000 INFO [o.n.k.NeoStoreDataSource] Opened logical log [/home/travis/build/ftsrg/trainbenchmark/trainbenchmark-tool-neo4j/../models/neo4j-dbs/railway-database/neostore.transaction.db.0] version=0, lastTxId=1 (clean)
+2020-11-13 14:22:44.332+0000 INFO [o.n.k.NeoStoreDataSource] No commits found after last check point (which is at <no log position given>)
+2020-11-13 14:22:44.332+0000 WARN [o.n.k.i.s.MetaDataStore] Missing counts store, rebuilding it.
+2020-11-13 14:22:44.394+0000 WARN [o.n.k.i.s.MetaDataStore] Counts store rebuild completed.
+2020-11-13 14:22:44.395+0000 INFO [o.n.k.i.a.i.IndexingService] IndexingService.start: indexes not specifically mentioned above are null
+2020-11-13 14:22:44.395+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Rebuilding scan store, this may take a while
+2020-11-13 14:22:44.397+0000 INFO [o.n.k.i.i.l.NativeLabelScanStore] Scan store rebuilt (roughly 0 nodes)
+2020-11-13 14:22:44.397+0000 INFO [o.n.k.i.DatabaseHealth] Database health set to OK
+2020-11-13 14:22:44.398+0000 INFO [o.n.k.AvailabilityGuard] Fulfilling of requirement makes database available: Database available
+2020-11-13 14:22:44.398+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now ready
+2020-11-13 14:22:44.398+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2020-11-13 14:22:44.398+0000 INFO [o.n.k.i.DiagnosticsManager] Graph Database: community single StoreId{creationTime=1605277364326, randomId=-4419326062044090165, storeVersion=15813456178476550, upgradeTime=1605277364326, upgradeId=1}
+2020-11-13 14:22:44.398+0000 INFO [o.n.k.i.DiagnosticsManager] Kernel version: 3.3.5,69f246fab87bc58a931d27cfa5ec5c35f21b95fa
+2020-11-13 14:22:44.398+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager] Store versions:
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore v0.A.8
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager] Id usage:
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   NodeStore: used=0 high=-1
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyIndexStore: used=0 high=-1
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   ArrayPropertyStore: used=1 high=0
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   PropertyStore: used=0 high=-1
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipStore: used=0 high=-1
+2020-11-13 14:22:44.399+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipTypeStore: used=0 high=-1
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager]   StringPropertyStore: used=1 high=0
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager]   LabelTokenStore: used=0 high=-1
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager]   SchemaStore: used=1 high=0
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager]   RelationshipGroupStore: used=1 high=0
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager]   NeoStore: used=15 high=14
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS START ---
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] Neostore records:
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] TIME (Creation time): 1605277364326
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] RANDOM_NUMBER (Random number for store id): -4419326062044090165
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] LOG_VERSION (Current log version): 0
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_ID (Last committed transaction): 1
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] STORE_VERSION (Store format version): 15813456178476550
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] FIRST_GRAPH_PROPERTY (First property record containing graph properties): -1
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CONSTRAINT_TRANSACTION (Last committed transaction containing constraint changes): 0
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_ID (Transaction id most recent upgrade was performed at): 1
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TIME (Time of last upgrade): 1605277364326
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_CHECKSUM (Checksum of last committed transaction): 0
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_CHECKSUM (Checksum of transaction id the most recent upgrade was performed at): 0
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_VERSION (Log version where the last transaction commit entry has been written into): 0
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_CLOSED_TRANSACTION_LOG_BYTE_OFFSET (Byte offset in the log file where the last transaction commit entry has been written into): 16
+2020-11-13 14:22:44.400+0000 INFO [o.n.k.i.DiagnosticsManager] LAST_TRANSACTION_COMMIT_TIMESTAMP (Commit time timestamp for last committed transaction): 0
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager] UPGRADE_TRANSACTION_COMMIT_TIMESTAMP (Commit timestamp of transaction the most recent upgrade was performed at): 0
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for NEO_STORE_RECORDS END ---
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE START ---
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager] Transaction log:
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager] No transactions found in any log
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for TRANSACTION_RANGE END ---
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager] Disk space on partition (Total / Free / Free %): 72795082752 / 60246872064 / 82
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager] Storage files: (filename : modification date - size)
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager]   index:
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2020-11-13T14:22:44+0000 - 0.00 B
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager]   logs:
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager]     debug.log: 2020-11-13T14:22:44+0000 - 45.08 kB
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager]   - Total: 2020-11-13T14:22:44+0000 - 45.08 kB
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore: 2020-11-13T14:22:44+0000 - 8.00 kB
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.counts.db.a: 2020-11-13T14:22:44+0000 - 96.00 B
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labelscanstore.db: 2020-11-13T14:22:44+0000 - 40.00 kB
+2020-11-13 14:22:44.401+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db: 2020-11-13T14:22:44+0000 - 0.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names: 2020-11-13T14:22:44+0000 - 8.00 kB
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.labeltokenstore.db.names.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db: 2020-11-13T14:22:44+0000 - 0.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels: 2020-11-13T14:22:44+0000 - 8.00 kB
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.nodestore.db.labels.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db: 2020-11-13T14:22:44+0000 - 0.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays: 2020-11-13T14:22:44+0000 - 8.00 kB
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.arrays.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index: 2020-11-13T14:22:44+0000 - 0.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys: 2020-11-13T14:22:44+0000 - 8.00 kB
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.index.keys.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings: 2020-11-13T14:22:44+0000 - 8.00 kB
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.propertystore.db.strings.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db: 2020-11-13T14:22:44+0000 - 8.00 kB
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipgroupstore.db.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db: 2020-11-13T14:22:44+0000 - 0.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshipstore.db.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db: 2020-11-13T14:22:44+0000 - 0.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names: 2020-11-13T14:22:44+0000 - 8.00 kB
+2020-11-13 14:22:44.402+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.relationshiptypestore.db.names.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.403+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db: 2020-11-13T14:22:44+0000 - 8.00 kB
+2020-11-13 14:22:44.403+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.schemastore.db.id: 2020-11-13T14:22:44+0000 - 9.00 B
+2020-11-13 14:22:44.403+0000 INFO [o.n.k.i.DiagnosticsManager]   neostore.transaction.db.0: 2020-11-13T14:22:44+0000 - 16.00 B
+2020-11-13 14:22:44.403+0000 INFO [o.n.k.i.DiagnosticsManager]   store_lock: 2020-11-13T14:22:44+0000 - 0.00 B
+2020-11-13 14:22:44.403+0000 INFO [o.n.k.i.DiagnosticsManager] Storage summary: 
+2020-11-13 14:22:44.403+0000 INFO [o.n.k.i.DiagnosticsManager]   Total size of store: 157.32 kB
+2020-11-13 14:22:44.403+0000 INFO [o.n.k.i.DiagnosticsManager]   Total size of mapped files: 112.00 kB
+2020-11-13 14:22:44.403+0000 INFO [o.n.k.i.DiagnosticsManager] --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2020-11-13 14:22:44.418+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Route(active) [provider: {key=lucene+native, version=1.0}]]
+2020-11-13 14:22:44.427+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Semaphore(signal) [provider: {key=lucene+native, version=1.0}]]
+2020-11-13 14:22:44.433+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Segment(length) [provider: {key=lucene+native, version=1.0}]]
+2020-11-13 14:22:44.438+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population started: [:Segment(id) [provider: {key=lucene+native, version=1.0}]]
+2020-11-13 14:22:44.444+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Completed node store scan. Flushing all pending updates.
+BatchingMultipleIndexPopulator{activeTasks=4, executor=java.util.concurrent.ThreadPoolExecutor@32e48a11[Running, pool size = 2, active threads = 2, queued tasks = 2, completed tasks = 0], batchedUpdates = [0 updates, 0 updates, 0 updates, 0 updates], queuedUpdates = 0}
+2020-11-13 14:22:44.444+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Shutting down executor.
+BatchingMultipleIndexPopulator{activeTasks=4, executor=java.util.concurrent.ThreadPoolExecutor@32e48a11[Running, pool size = 2, active threads = 1, queued tasks = 3, completed tasks = 2], batchedUpdates = [0 updates, 0 updates, 0 updates, 0 updates], queuedUpdates = 0}
+2020-11-13 14:22:44.453+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Route(active) [provider: {key=lucene+native, version=1.0}]]
+2020-11-13 14:22:44.459+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Semaphore(signal) [provider: {key=lucene+native, version=1.0}]]
+2020-11-13 14:22:44.465+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Segment(length) [provider: {key=lucene+native, version=1.0}]]
+2020-11-13 14:22:44.471+0000 INFO [o.n.k.i.a.i.IndexPopulationJob] Index population completed. Index is now online: [:Segment(id) [provider: {key=lucene+native, version=1.0}]]
+2020-11-13 14:22:46.353+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Shutdown started
+2020-11-13 14:22:46.353+0000 INFO [o.n.k.i.f.GraphDatabaseFacadeFactory] Database is now unavailable
+2020-11-13 14:22:46.355+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [36]:  Starting check pointing...
+2020-11-13 14:22:46.355+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [36]:  Starting store flush...
+2020-11-13 14:22:46.386+0000 INFO [o.n.k.i.s.c.CountsTracker] About to rotate counts store at transaction 36 to [/home/travis/build/ftsrg/trainbenchmark/trainbenchmark-tool-neo4j/../models/neo4j-dbs/railway-database/neostore.counts.db.b], from [/home/travis/build/ftsrg/trainbenchmark/trainbenchmark-tool-neo4j/../models/neo4j-dbs/railway-database/neostore.counts.db.a].
+2020-11-13 14:22:46.387+0000 INFO [o.n.k.i.s.c.CountsTracker] Successfully rotated counts store at transaction 36 to [/home/travis/build/ftsrg/trainbenchmark/trainbenchmark-tool-neo4j/../models/neo4j-dbs/railway-database/neostore.counts.db.b], from [/home/travis/build/ftsrg/trainbenchmark/trainbenchmark-tool-neo4j/../models/neo4j-dbs/railway-database/neostore.counts.db.a].
+2020-11-13 14:22:46.403+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [36]:  Store flush completed
+2020-11-13 14:22:46.403+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [36]:  Starting appending check point entry into the tx log...
+2020-11-13 14:22:46.404+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [36]:  Appending check point entry into the tx log completed
+2020-11-13 14:22:46.404+0000 INFO [o.n.k.i.t.l.c.CheckPointerImpl] Check Pointing triggered by database shutdown [36]:  Check pointing completed
+2020-11-13 14:22:46.404+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Starting log pruning.
+2020-11-13 14:22:46.404+0000 INFO [o.n.k.i.t.l.p.LogPruningImpl] Log Rotation [0]:  Log pruning complete.
+2020-11-13 14:22:46.425+0000 INFO [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics START ---
+2020-11-13 14:22:46.425+0000 INFO [o.n.k.i.DiagnosticsManager] --- STOPPING diagnostics END ---

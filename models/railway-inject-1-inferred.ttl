@@ -1,0 +1,6933 @@
+@prefix : <http://www.semanticweb.org/ontologies/2015/trainbenchmark#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:_1 a :Semaphore ;
+	:signal :SIGNAL_GO .
+
+:_2 a :Semaphore ;
+	:signal :SIGNAL_GO .
+
+:_3 a :Route ;
+	:active true ;
+	:entry :_1 ;
+	:exit :_2 .
+
+:_4 a :Region .
+
+:_5 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_FAILURE .
+
+:_4 :elements :_5 .
+
+:_6 a :Sensor .
+
+:_4 :sensors :_6 .
+
+:_5 :monitoredBy :_6 .
+
+:_3 :requires :_6 .
+
+:_7 a :Segment ;
+	a :TrackElement ;
+	:length "504"^^xsd:int .
+
+:_4 :elements :_7 .
+
+:_7 :monitoredBy :_6 .
+
+:_7 :semaphores :_2 .
+
+:_8 a :Segment ;
+	a :TrackElement ;
+	:length "776"^^xsd:int .
+
+:_4 :elements :_8 .
+
+:_8 :monitoredBy :_6 .
+
+:_9 a :Segment ;
+	a :TrackElement ;
+	:length "60"^^xsd:int .
+
+:_4 :elements :_9 .
+
+:_9 :monitoredBy :_6 .
+
+:_10 a :Segment ;
+	a :TrackElement ;
+	:length "808"^^xsd:int .
+
+:_4 :elements :_10 .
+
+:_10 :monitoredBy :_6 .
+
+:_11 a :Segment ;
+	a :TrackElement ;
+	:length "576"^^xsd:int .
+
+:_4 :elements :_11 .
+
+:_11 :monitoredBy :_6 .
+
+:_12 a :Segment ;
+	a :TrackElement ;
+	:length "358"^^xsd:int .
+
+:_4 :elements :_12 .
+
+:_12 :monitoredBy :_6 .
+
+:_13 a :Sensor .
+
+:_4 :sensors :_13 .
+
+:_5 :monitoredBy :_13 .
+
+:_3 :requires :_13 .
+
+:_14 a :Segment ;
+	a :TrackElement ;
+	:length "335"^^xsd:int .
+
+:_4 :elements :_14 .
+
+:_14 :monitoredBy :_13 .
+
+:_15 a :Segment ;
+	a :TrackElement ;
+	:length "461"^^xsd:int .
+
+:_4 :elements :_15 .
+
+:_15 :monitoredBy :_13 .
+
+:_16 a :Segment ;
+	a :TrackElement ;
+	:length "439"^^xsd:int .
+
+:_4 :elements :_16 .
+
+:_16 :monitoredBy :_13 .
+
+:_17 a :Segment ;
+	a :TrackElement ;
+	:length "879"^^xsd:int .
+
+:_4 :elements :_17 .
+
+:_17 :monitoredBy :_13 .
+
+:_18 a :Segment ;
+	a :TrackElement ;
+	:length "90"^^xsd:int .
+
+:_4 :elements :_18 .
+
+:_18 :monitoredBy :_13 .
+
+:_19 a :Sensor .
+
+:_4 :sensors :_19 .
+
+:_5 :monitoredBy :_19 .
+
+:_3 :requires :_19 .
+
+:_20 a :Segment ;
+	a :TrackElement ;
+	:length "829"^^xsd:int .
+
+:_4 :elements :_20 .
+
+:_20 :monitoredBy :_19 .
+
+:_21 a :Segment ;
+	a :TrackElement ;
+	:length "395"^^xsd:int .
+
+:_4 :elements :_21 .
+
+:_21 :monitoredBy :_19 .
+
+:_22 a :Segment ;
+	a :TrackElement ;
+	:length "732"^^xsd:int .
+
+:_4 :elements :_22 .
+
+:_22 :monitoredBy :_19 .
+
+:_23 a :Segment ;
+	a :TrackElement ;
+	:length "134"^^xsd:int .
+
+:_4 :elements :_23 .
+
+:_23 :monitoredBy :_19 .
+
+:_24 a :Segment ;
+	a :TrackElement ;
+	:length "857"^^xsd:int .
+
+:_4 :elements :_24 .
+
+:_24 :monitoredBy :_19 .
+
+:_25 a :Sensor .
+
+:_4 :sensors :_25 .
+
+:_5 :monitoredBy :_25 .
+
+:_3 :requires :_25 .
+
+:_26 a :Segment ;
+	a :TrackElement ;
+	:length "376"^^xsd:int .
+
+:_4 :elements :_26 .
+
+:_26 :monitoredBy :_25 .
+
+:_27 a :Segment ;
+	a :TrackElement ;
+	:length "803"^^xsd:int .
+
+:_4 :elements :_27 .
+
+:_27 :monitoredBy :_25 .
+
+:_28 a :Segment ;
+	a :TrackElement ;
+	:length "505"^^xsd:int .
+
+:_4 :elements :_28 .
+
+:_28 :monitoredBy :_25 .
+
+:_29 a :Segment ;
+	a :TrackElement ;
+	:length "137"^^xsd:int .
+
+:_4 :elements :_29 .
+
+:_29 :monitoredBy :_25 .
+
+:_30 a :Segment ;
+	a :TrackElement ;
+	:length "294"^^xsd:int .
+
+:_4 :elements :_30 .
+
+:_30 :monitoredBy :_25 .
+
+:_31 a :Sensor .
+
+:_4 :sensors :_31 .
+
+:_5 :monitoredBy :_31 .
+
+:_3 :requires :_31 .
+
+:_32 a :Segment ;
+	a :TrackElement ;
+	:length "494"^^xsd:int .
+
+:_4 :elements :_32 .
+
+:_32 :monitoredBy :_31 .
+
+:_33 a :Segment ;
+	a :TrackElement ;
+	:length "306"^^xsd:int .
+
+:_4 :elements :_33 .
+
+:_33 :monitoredBy :_31 .
+
+:_34 a :Segment ;
+	a :TrackElement ;
+	:length "979"^^xsd:int .
+
+:_4 :elements :_34 .
+
+:_34 :monitoredBy :_31 .
+
+:_35 a :Segment ;
+	a :TrackElement ;
+	:length "597"^^xsd:int .
+
+:_4 :elements :_35 .
+
+:_35 :monitoredBy :_31 .
+
+:_36 a :Segment ;
+	a :TrackElement ;
+	:length "815"^^xsd:int .
+
+:_4 :elements :_36 .
+
+:_36 :monitoredBy :_31 .
+
+:_37 a :Sensor .
+
+:_4 :sensors :_37 .
+
+:_5 :monitoredBy :_37 .
+
+:_3 :requires :_37 .
+
+:_38 a :Segment ;
+	a :TrackElement ;
+	:length "396"^^xsd:int .
+
+:_4 :elements :_38 .
+
+:_38 :monitoredBy :_37 .
+
+:_39 a :Segment ;
+	a :TrackElement ;
+	:length "813"^^xsd:int .
+
+:_4 :elements :_39 .
+
+:_39 :monitoredBy :_37 .
+
+:_40 a :Segment ;
+	a :TrackElement ;
+	:length "518"^^xsd:int .
+
+:_4 :elements :_40 .
+
+:_40 :monitoredBy :_37 .
+
+:_41 a :Segment ;
+	a :TrackElement ;
+	:length "831"^^xsd:int .
+
+:_4 :elements :_41 .
+
+:_41 :monitoredBy :_37 .
+
+:_42 a :Segment ;
+	a :TrackElement ;
+	:length "730"^^xsd:int .
+
+:_4 :elements :_42 .
+
+:_42 :monitoredBy :_37 .
+
+:_43 a :Sensor .
+
+:_4 :sensors :_43 .
+
+:_5 :monitoredBy :_43 .
+
+:_3 :requires :_43 .
+
+:_44 a :Segment ;
+	a :TrackElement ;
+	:length "127"^^xsd:int .
+
+:_4 :elements :_44 .
+
+:_44 :monitoredBy :_43 .
+
+:_45 a :Segment ;
+	a :TrackElement ;
+	:length "968"^^xsd:int .
+
+:_4 :elements :_45 .
+
+:_45 :monitoredBy :_43 .
+
+:_46 a :Segment ;
+	a :TrackElement ;
+	:length "974"^^xsd:int .
+
+:_4 :elements :_46 .
+
+:_46 :monitoredBy :_43 .
+
+:_47 a :Segment ;
+	a :TrackElement ;
+	:length "197"^^xsd:int .
+
+:_4 :elements :_47 .
+
+:_47 :monitoredBy :_43 .
+
+:_48 a :Segment ;
+	a :TrackElement ;
+	:length "324"^^xsd:int .
+
+:_4 :elements :_48 .
+
+:_48 :monitoredBy :_43 .
+
+:_49 a :SwitchPosition ;
+	:position :POSITION_FAILURE ;
+	:target :_5 .
+
+:_3 :follows :_49 .
+
+:_5 :connectsTo :_7 .
+
+:_7 :connectsTo :_8 .
+
+:_8 :connectsTo :_9 .
+
+:_9 :connectsTo :_10 .
+
+:_10 :connectsTo :_11 .
+
+:_11 :connectsTo :_12 .
+
+:_12 :connectsTo :_14 .
+
+:_14 :connectsTo :_15 .
+
+:_15 :connectsTo :_16 .
+
+:_16 :connectsTo :_17 .
+
+:_17 :connectsTo :_18 .
+
+:_18 :connectsTo :_20 .
+
+:_20 :connectsTo :_21 .
+
+:_21 :connectsTo :_22 .
+
+:_22 :connectsTo :_23 .
+
+:_23 :connectsTo :_24 .
+
+:_24 :connectsTo :_26 .
+
+:_26 :connectsTo :_27 .
+
+:_27 :connectsTo :_28 .
+
+:_28 :connectsTo :_29 .
+
+:_29 :connectsTo :_30 .
+
+:_30 :connectsTo :_32 .
+
+:_32 :connectsTo :_33 .
+
+:_33 :connectsTo :_34 .
+
+:_34 :connectsTo :_35 .
+
+:_35 :connectsTo :_36 .
+
+:_36 :connectsTo :_38 .
+
+:_38 :connectsTo :_39 .
+
+:_39 :connectsTo :_40 .
+
+:_40 :connectsTo :_41 .
+
+:_41 :connectsTo :_42 .
+
+:_42 :connectsTo :_44 .
+
+:_44 :connectsTo :_45 .
+
+:_45 :connectsTo :_46 .
+
+:_46 :connectsTo :_47 .
+
+:_47 :connectsTo :_48 .
+
+:_50 a :Semaphore ;
+	:signal :SIGNAL_GO .
+
+:_51 a :Route ;
+	:active true ;
+	:entry :_2 ;
+	:exit :_50 .
+
+:_52 a :Region .
+
+:_53 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_STRAIGHT .
+
+:_52 :elements :_53 .
+
+:_54 a :Sensor .
+
+:_52 :sensors :_54 .
+
+:_53 :monitoredBy :_54 .
+
+:_51 :requires :_54 .
+
+:_55 a :Segment ;
+	a :TrackElement ;
+	:length "324"^^xsd:int .
+
+:_52 :elements :_55 .
+
+:_55 :monitoredBy :_54 .
+
+:_55 :semaphores :_50 .
+
+:_56 a :Segment ;
+	a :TrackElement ;
+	:length "996"^^xsd:int .
+
+:_52 :elements :_56 .
+
+:_56 :monitoredBy :_54 .
+
+:_57 a :Segment ;
+	a :TrackElement ;
+	:length "645"^^xsd:int .
+
+:_52 :elements :_57 .
+
+:_57 :monitoredBy :_54 .
+
+:_58 a :Segment ;
+	a :TrackElement ;
+	:length "455"^^xsd:int .
+
+:_52 :elements :_58 .
+
+:_58 :monitoredBy :_54 .
+
+:_59 a :Segment ;
+	a :TrackElement ;
+	:length "517"^^xsd:int .
+
+:_52 :elements :_59 .
+
+:_59 :monitoredBy :_54 .
+
+:_60 a :Sensor .
+
+:_52 :sensors :_60 .
+
+:_53 :monitoredBy :_60 .
+
+:_51 :requires :_60 .
+
+:_61 a :Segment ;
+	a :TrackElement ;
+	:length "582"^^xsd:int .
+
+:_52 :elements :_61 .
+
+:_61 :monitoredBy :_60 .
+
+:_62 a :Segment ;
+	a :TrackElement ;
+	:length "641"^^xsd:int .
+
+:_52 :elements :_62 .
+
+:_62 :monitoredBy :_60 .
+
+:_63 a :Segment ;
+	a :TrackElement ;
+	:length "683"^^xsd:int .
+
+:_52 :elements :_63 .
+
+:_63 :monitoredBy :_60 .
+
+:_64 a :Segment ;
+	a :TrackElement ;
+	:length "639"^^xsd:int .
+
+:_52 :elements :_64 .
+
+:_64 :monitoredBy :_60 .
+
+:_65 a :Segment ;
+	a :TrackElement ;
+	:length "212"^^xsd:int .
+
+:_52 :elements :_65 .
+
+:_65 :monitoredBy :_60 .
+
+:_66 a :SwitchPosition ;
+	:position :POSITION_STRAIGHT ;
+	:target :_53 .
+
+:_51 :follows :_66 .
+
+:_53 :connectsTo :_55 .
+
+:_55 :connectsTo :_56 .
+
+:_56 :connectsTo :_57 .
+
+:_57 :connectsTo :_58 .
+
+:_58 :connectsTo :_59 .
+
+:_59 :connectsTo :_61 .
+
+:_61 :connectsTo :_62 .
+
+:_62 :connectsTo :_63 .
+
+:_63 :connectsTo :_64 .
+
+:_64 :connectsTo :_65 .
+
+:_48 :connectsTo :_53 .
+
+:_67 a :Semaphore ;
+	:signal :SIGNAL_GO .
+
+:_68 a :Route ;
+	:active true ;
+	:entry :_50 ;
+	:exit :_67 .
+
+:_69 a :Region .
+
+:_70 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_FAILURE .
+
+:_69 :elements :_70 .
+
+:_71 a :Sensor .
+
+:_69 :sensors :_71 .
+
+:_70 :monitoredBy :_71 .
+
+:_68 :requires :_71 .
+
+:_72 a :Segment ;
+	a :TrackElement ;
+	:length "852"^^xsd:int .
+
+:_69 :elements :_72 .
+
+:_72 :monitoredBy :_71 .
+
+:_72 :semaphores :_67 .
+
+:_73 a :Segment ;
+	a :TrackElement ;
+	:length "994"^^xsd:int .
+
+:_69 :elements :_73 .
+
+:_73 :monitoredBy :_71 .
+
+:_74 a :Segment ;
+	a :TrackElement ;
+	:length "931"^^xsd:int .
+
+:_69 :elements :_74 .
+
+:_74 :monitoredBy :_71 .
+
+:_75 a :Segment ;
+	a :TrackElement ;
+	:length "472"^^xsd:int .
+
+:_69 :elements :_75 .
+
+:_75 :monitoredBy :_71 .
+
+:_76 a :Segment ;
+	a :TrackElement ;
+	:length "367"^^xsd:int .
+
+:_69 :elements :_76 .
+
+:_76 :monitoredBy :_71 .
+
+:_77 a :Sensor .
+
+:_69 :sensors :_77 .
+
+:_70 :monitoredBy :_77 .
+
+:_68 :requires :_77 .
+
+:_78 a :Segment ;
+	a :TrackElement ;
+	:length "679"^^xsd:int .
+
+:_69 :elements :_78 .
+
+:_78 :monitoredBy :_77 .
+
+:_79 a :Segment ;
+	a :TrackElement ;
+	:length "180"^^xsd:int .
+
+:_69 :elements :_79 .
+
+:_79 :monitoredBy :_77 .
+
+:_80 a :Segment ;
+	a :TrackElement ;
+	:length "745"^^xsd:int .
+
+:_69 :elements :_80 .
+
+:_80 :monitoredBy :_77 .
+
+:_81 a :Segment ;
+	a :TrackElement ;
+	:length "629"^^xsd:int .
+
+:_69 :elements :_81 .
+
+:_81 :monitoredBy :_77 .
+
+:_82 a :Segment ;
+	a :TrackElement ;
+	:length "711"^^xsd:int .
+
+:_69 :elements :_82 .
+
+:_82 :monitoredBy :_77 .
+
+:_83 a :Sensor .
+
+:_69 :sensors :_83 .
+
+:_70 :monitoredBy :_83 .
+
+:_68 :requires :_83 .
+
+:_84 a :Segment ;
+	a :TrackElement ;
+	:length "633"^^xsd:int .
+
+:_69 :elements :_84 .
+
+:_84 :monitoredBy :_83 .
+
+:_85 a :Segment ;
+	a :TrackElement ;
+	:length "733"^^xsd:int .
+
+:_69 :elements :_85 .
+
+:_85 :monitoredBy :_83 .
+
+:_86 a :Segment ;
+	a :TrackElement ;
+	:length "542"^^xsd:int .
+
+:_69 :elements :_86 .
+
+:_86 :monitoredBy :_83 .
+
+:_87 a :Segment ;
+	a :TrackElement ;
+	:length "449"^^xsd:int .
+
+:_69 :elements :_87 .
+
+:_87 :monitoredBy :_83 .
+
+:_88 a :Segment ;
+	a :TrackElement ;
+	:length "655"^^xsd:int .
+
+:_69 :elements :_88 .
+
+:_88 :monitoredBy :_83 .
+
+:_89 a :Sensor .
+
+:_69 :sensors :_89 .
+
+:_70 :monitoredBy :_89 .
+
+:_68 :requires :_89 .
+
+:_90 a :Segment ;
+	a :TrackElement ;
+	:length "549"^^xsd:int .
+
+:_69 :elements :_90 .
+
+:_90 :monitoredBy :_89 .
+
+:_91 a :Segment ;
+	a :TrackElement ;
+	:length "988"^^xsd:int .
+
+:_69 :elements :_91 .
+
+:_91 :monitoredBy :_89 .
+
+:_92 a :Segment ;
+	a :TrackElement ;
+	:length "567"^^xsd:int .
+
+:_69 :elements :_92 .
+
+:_92 :monitoredBy :_89 .
+
+:_93 a :Segment ;
+	a :TrackElement ;
+	:length "483"^^xsd:int .
+
+:_69 :elements :_93 .
+
+:_93 :monitoredBy :_89 .
+
+:_94 a :Segment ;
+	a :TrackElement ;
+	:length "234"^^xsd:int .
+
+:_69 :elements :_94 .
+
+:_94 :monitoredBy :_89 .
+
+:_95 a :Sensor .
+
+:_69 :sensors :_95 .
+
+:_70 :monitoredBy :_95 .
+
+:_68 :requires :_95 .
+
+:_96 a :Segment ;
+	a :TrackElement ;
+	:length "636"^^xsd:int .
+
+:_69 :elements :_96 .
+
+:_96 :monitoredBy :_95 .
+
+:_97 a :Segment ;
+	a :TrackElement ;
+	:length "132"^^xsd:int .
+
+:_69 :elements :_97 .
+
+:_97 :monitoredBy :_95 .
+
+:_98 a :Segment ;
+	a :TrackElement ;
+	:length "849"^^xsd:int .
+
+:_69 :elements :_98 .
+
+:_98 :monitoredBy :_95 .
+
+:_99 a :Segment ;
+	a :TrackElement ;
+	:length "421"^^xsd:int .
+
+:_69 :elements :_99 .
+
+:_99 :monitoredBy :_95 .
+
+:_100 a :Segment ;
+	a :TrackElement ;
+	:length "345"^^xsd:int .
+
+:_69 :elements :_100 .
+
+:_100 :monitoredBy :_95 .
+
+:_101 a :Sensor .
+
+:_69 :sensors :_101 .
+
+:_70 :monitoredBy :_101 .
+
+:_102 a :Segment ;
+	a :TrackElement ;
+	:length "-427"^^xsd:int .
+
+:_69 :elements :_102 .
+
+:_102 :monitoredBy :_101 .
+
+:_103 a :Segment ;
+	a :TrackElement ;
+	:length "771"^^xsd:int .
+
+:_69 :elements :_103 .
+
+:_103 :monitoredBy :_101 .
+
+:_104 a :Segment ;
+	a :TrackElement ;
+	:length "892"^^xsd:int .
+
+:_69 :elements :_104 .
+
+:_104 :monitoredBy :_101 .
+
+:_105 a :Segment ;
+	a :TrackElement ;
+	:length "387"^^xsd:int .
+
+:_69 :elements :_105 .
+
+:_105 :monitoredBy :_101 .
+
+:_106 a :Segment ;
+	a :TrackElement ;
+	:length "149"^^xsd:int .
+
+:_69 :elements :_106 .
+
+:_106 :monitoredBy :_101 .
+
+:_107 a :Sensor .
+
+:_69 :sensors :_107 .
+
+:_70 :monitoredBy :_107 .
+
+:_68 :requires :_107 .
+
+:_108 a :Segment ;
+	a :TrackElement ;
+	:length "313"^^xsd:int .
+
+:_69 :elements :_108 .
+
+:_108 :monitoredBy :_107 .
+
+:_109 a :Segment ;
+	a :TrackElement ;
+	:length "209"^^xsd:int .
+
+:_69 :elements :_109 .
+
+:_109 :monitoredBy :_107 .
+
+:_110 a :Segment ;
+	a :TrackElement ;
+	:length "814"^^xsd:int .
+
+:_69 :elements :_110 .
+
+:_110 :monitoredBy :_107 .
+
+:_111 a :Segment ;
+	a :TrackElement ;
+	:length "721"^^xsd:int .
+
+:_69 :elements :_111 .
+
+:_111 :monitoredBy :_107 .
+
+:_112 a :Segment ;
+	a :TrackElement ;
+	:length "26"^^xsd:int .
+
+:_69 :elements :_112 .
+
+:_112 :monitoredBy :_107 .
+
+:_113 a :SwitchPosition ;
+	:position :POSITION_FAILURE ;
+	:target :_70 .
+
+:_68 :follows :_113 .
+
+:_114 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_DIVERGING .
+
+:_69 :elements :_114 .
+
+:_115 a :Sensor .
+
+:_69 :sensors :_115 .
+
+:_114 :monitoredBy :_115 .
+
+:_68 :requires :_115 .
+
+:_116 a :Segment ;
+	a :TrackElement ;
+	:length "436"^^xsd:int .
+
+:_69 :elements :_116 .
+
+:_116 :monitoredBy :_115 .
+
+:_117 a :Segment ;
+	a :TrackElement ;
+	:length "99"^^xsd:int .
+
+:_69 :elements :_117 .
+
+:_117 :monitoredBy :_115 .
+
+:_118 a :Segment ;
+	a :TrackElement ;
+	:length "-816"^^xsd:int .
+
+:_69 :elements :_118 .
+
+:_118 :monitoredBy :_115 .
+
+:_119 a :Segment ;
+	a :TrackElement ;
+	:length "853"^^xsd:int .
+
+:_69 :elements :_119 .
+
+:_119 :monitoredBy :_115 .
+
+:_120 a :Segment ;
+	a :TrackElement ;
+	:length "153"^^xsd:int .
+
+:_69 :elements :_120 .
+
+:_120 :monitoredBy :_115 .
+
+:_121 a :Sensor .
+
+:_69 :sensors :_121 .
+
+:_114 :monitoredBy :_121 .
+
+:_68 :requires :_121 .
+
+:_122 a :Segment ;
+	a :TrackElement ;
+	:length "560"^^xsd:int .
+
+:_69 :elements :_122 .
+
+:_122 :monitoredBy :_121 .
+
+:_123 a :Segment ;
+	a :TrackElement ;
+	:length "872"^^xsd:int .
+
+:_69 :elements :_123 .
+
+:_123 :monitoredBy :_121 .
+
+:_124 a :Segment ;
+	a :TrackElement ;
+	:length "190"^^xsd:int .
+
+:_69 :elements :_124 .
+
+:_124 :monitoredBy :_121 .
+
+:_125 a :Segment ;
+	a :TrackElement ;
+	:length "340"^^xsd:int .
+
+:_69 :elements :_125 .
+
+:_125 :monitoredBy :_121 .
+
+:_126 a :Segment ;
+	a :TrackElement ;
+	:length "764"^^xsd:int .
+
+:_69 :elements :_126 .
+
+:_126 :monitoredBy :_121 .
+
+:_127 a :Segment ;
+	a :TrackElement ;
+	:length "35"^^xsd:int .
+
+:_69 :elements :_127 .
+
+:_127 :monitoredBy :_121 .
+
+:_128 a :Sensor .
+
+:_69 :sensors :_128 .
+
+:_114 :monitoredBy :_128 .
+
+:_68 :requires :_128 .
+
+:_129 a :Segment ;
+	a :TrackElement ;
+	:length "872"^^xsd:int .
+
+:_69 :elements :_129 .
+
+:_129 :monitoredBy :_128 .
+
+:_130 a :Segment ;
+	a :TrackElement ;
+	:length "193"^^xsd:int .
+
+:_69 :elements :_130 .
+
+:_130 :monitoredBy :_128 .
+
+:_131 a :Segment ;
+	a :TrackElement ;
+	:length "515"^^xsd:int .
+
+:_69 :elements :_131 .
+
+:_131 :monitoredBy :_128 .
+
+:_132 a :Segment ;
+	a :TrackElement ;
+	:length "141"^^xsd:int .
+
+:_69 :elements :_132 .
+
+:_132 :monitoredBy :_128 .
+
+:_133 a :Segment ;
+	a :TrackElement ;
+	:length "11"^^xsd:int .
+
+:_69 :elements :_133 .
+
+:_133 :monitoredBy :_128 .
+
+:_134 a :Segment ;
+	a :TrackElement ;
+	:length "288"^^xsd:int .
+
+:_69 :elements :_134 .
+
+:_134 :monitoredBy :_128 .
+
+:_135 a :SwitchPosition ;
+	:position :POSITION_DIVERGING ;
+	:target :_114 .
+
+:_68 :follows :_135 .
+
+:_136 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_DIVERGING .
+
+:_69 :elements :_136 .
+
+:_137 a :Sensor .
+
+:_69 :sensors :_137 .
+
+:_136 :monitoredBy :_137 .
+
+:_68 :requires :_137 .
+
+:_138 a :Segment ;
+	a :TrackElement ;
+	:length "994"^^xsd:int .
+
+:_69 :elements :_138 .
+
+:_138 :monitoredBy :_137 .
+
+:_139 a :Segment ;
+	a :TrackElement ;
+	:length "852"^^xsd:int .
+
+:_69 :elements :_139 .
+
+:_139 :monitoredBy :_137 .
+
+:_140 a :Segment ;
+	a :TrackElement ;
+	:length "-713"^^xsd:int .
+
+:_69 :elements :_140 .
+
+:_140 :monitoredBy :_137 .
+
+:_141 a :Segment ;
+	a :TrackElement ;
+	:length "933"^^xsd:int .
+
+:_69 :elements :_141 .
+
+:_141 :monitoredBy :_137 .
+
+:_142 a :Segment ;
+	a :TrackElement ;
+	:length "232"^^xsd:int .
+
+:_69 :elements :_142 .
+
+:_142 :monitoredBy :_137 .
+
+:_143 a :Sensor .
+
+:_69 :sensors :_143 .
+
+:_136 :monitoredBy :_143 .
+
+:_68 :requires :_143 .
+
+:_144 a :Segment ;
+	a :TrackElement ;
+	:length "692"^^xsd:int .
+
+:_69 :elements :_144 .
+
+:_144 :monitoredBy :_143 .
+
+:_145 a :Segment ;
+	a :TrackElement ;
+	:length "901"^^xsd:int .
+
+:_69 :elements :_145 .
+
+:_145 :monitoredBy :_143 .
+
+:_146 a :Segment ;
+	a :TrackElement ;
+	:length "590"^^xsd:int .
+
+:_69 :elements :_146 .
+
+:_146 :monitoredBy :_143 .
+
+:_147 a :Segment ;
+	a :TrackElement ;
+	:length "530"^^xsd:int .
+
+:_69 :elements :_147 .
+
+:_147 :monitoredBy :_143 .
+
+:_148 a :Segment ;
+	a :TrackElement ;
+	:length "896"^^xsd:int .
+
+:_69 :elements :_148 .
+
+:_148 :monitoredBy :_143 .
+
+:_149 a :Sensor .
+
+:_69 :sensors :_149 .
+
+:_136 :monitoredBy :_149 .
+
+:_68 :requires :_149 .
+
+:_150 a :Segment ;
+	a :TrackElement ;
+	:length "494"^^xsd:int .
+
+:_69 :elements :_150 .
+
+:_150 :monitoredBy :_149 .
+
+:_151 a :Segment ;
+	a :TrackElement ;
+	:length "325"^^xsd:int .
+
+:_69 :elements :_151 .
+
+:_151 :monitoredBy :_149 .
+
+:_152 a :Segment ;
+	a :TrackElement ;
+	:length "273"^^xsd:int .
+
+:_69 :elements :_152 .
+
+:_152 :monitoredBy :_149 .
+
+:_153 a :Segment ;
+	a :TrackElement ;
+	:length "800"^^xsd:int .
+
+:_69 :elements :_153 .
+
+:_153 :monitoredBy :_149 .
+
+:_154 a :Segment ;
+	a :TrackElement ;
+	:length "137"^^xsd:int .
+
+:_69 :elements :_154 .
+
+:_154 :monitoredBy :_149 .
+
+:_155 a :Sensor .
+
+:_69 :sensors :_155 .
+
+:_136 :monitoredBy :_155 .
+
+:_68 :requires :_155 .
+
+:_156 a :Segment ;
+	a :TrackElement ;
+	:length "813"^^xsd:int .
+
+:_69 :elements :_156 .
+
+:_156 :monitoredBy :_155 .
+
+:_157 a :Segment ;
+	a :TrackElement ;
+	:length "137"^^xsd:int .
+
+:_69 :elements :_157 .
+
+:_157 :monitoredBy :_155 .
+
+:_158 a :Segment ;
+	a :TrackElement ;
+	:length "975"^^xsd:int .
+
+:_69 :elements :_158 .
+
+:_158 :monitoredBy :_155 .
+
+:_159 a :Segment ;
+	a :TrackElement ;
+	:length "53"^^xsd:int .
+
+:_69 :elements :_159 .
+
+:_159 :monitoredBy :_155 .
+
+:_160 a :Segment ;
+	a :TrackElement ;
+	:length "386"^^xsd:int .
+
+:_69 :elements :_160 .
+
+:_160 :monitoredBy :_155 .
+
+:_161 a :Sensor .
+
+:_69 :sensors :_161 .
+
+:_136 :monitoredBy :_161 .
+
+:_68 :requires :_161 .
+
+:_162 a :Segment ;
+	a :TrackElement ;
+	:length "633"^^xsd:int .
+
+:_69 :elements :_162 .
+
+:_162 :monitoredBy :_161 .
+
+:_163 a :Segment ;
+	a :TrackElement ;
+	:length "220"^^xsd:int .
+
+:_69 :elements :_163 .
+
+:_163 :monitoredBy :_161 .
+
+:_164 a :Segment ;
+	a :TrackElement ;
+	:length "697"^^xsd:int .
+
+:_69 :elements :_164 .
+
+:_164 :monitoredBy :_161 .
+
+:_165 a :Segment ;
+	a :TrackElement ;
+	:length "929"^^xsd:int .
+
+:_69 :elements :_165 .
+
+:_165 :monitoredBy :_161 .
+
+:_166 a :Segment ;
+	a :TrackElement ;
+	:length "586"^^xsd:int .
+
+:_69 :elements :_166 .
+
+:_166 :monitoredBy :_161 .
+
+:_167 a :Sensor .
+
+:_69 :sensors :_167 .
+
+:_136 :monitoredBy :_167 .
+
+:_168 a :Segment ;
+	a :TrackElement ;
+	:length "152"^^xsd:int .
+
+:_69 :elements :_168 .
+
+:_168 :monitoredBy :_167 .
+
+:_169 a :Segment ;
+	a :TrackElement ;
+	:length "45"^^xsd:int .
+
+:_69 :elements :_169 .
+
+:_169 :monitoredBy :_167 .
+
+:_170 a :Segment ;
+	a :TrackElement ;
+	:length "886"^^xsd:int .
+
+:_69 :elements :_170 .
+
+:_170 :monitoredBy :_167 .
+
+:_171 a :Segment ;
+	a :TrackElement ;
+	:length "85"^^xsd:int .
+
+:_69 :elements :_171 .
+
+:_171 :monitoredBy :_167 .
+
+:_172 a :Segment ;
+	a :TrackElement ;
+	:length "23"^^xsd:int .
+
+:_69 :elements :_172 .
+
+:_172 :monitoredBy :_167 .
+
+:_173 a :SwitchPosition ;
+	:position :POSITION_DIVERGING ;
+	:target :_136 .
+
+:_68 :follows :_173 .
+
+:_174 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_DIVERGING .
+
+:_69 :elements :_174 .
+
+:_175 a :Sensor .
+
+:_69 :sensors :_175 .
+
+:_174 :monitoredBy :_175 .
+
+:_68 :requires :_175 .
+
+:_176 a :Segment ;
+	a :TrackElement ;
+	:length "246"^^xsd:int .
+
+:_69 :elements :_176 .
+
+:_176 :monitoredBy :_175 .
+
+:_177 a :Segment ;
+	a :TrackElement ;
+	:length "245"^^xsd:int .
+
+:_69 :elements :_177 .
+
+:_177 :monitoredBy :_175 .
+
+:_178 a :Segment ;
+	a :TrackElement ;
+	:length "246"^^xsd:int .
+
+:_69 :elements :_178 .
+
+:_178 :monitoredBy :_175 .
+
+:_179 a :Segment ;
+	a :TrackElement ;
+	:length "239"^^xsd:int .
+
+:_69 :elements :_179 .
+
+:_179 :monitoredBy :_175 .
+
+:_180 a :Segment ;
+	a :TrackElement ;
+	:length "437"^^xsd:int .
+
+:_69 :elements :_180 .
+
+:_180 :monitoredBy :_175 .
+
+:_181 a :Sensor .
+
+:_69 :sensors :_181 .
+
+:_174 :monitoredBy :_181 .
+
+:_68 :requires :_181 .
+
+:_182 a :Segment ;
+	a :TrackElement ;
+	:length "544"^^xsd:int .
+
+:_69 :elements :_182 .
+
+:_182 :monitoredBy :_181 .
+
+:_183 a :Segment ;
+	a :TrackElement ;
+	:length "375"^^xsd:int .
+
+:_69 :elements :_183 .
+
+:_183 :monitoredBy :_181 .
+
+:_184 a :Segment ;
+	a :TrackElement ;
+	:length "398"^^xsd:int .
+
+:_69 :elements :_184 .
+
+:_184 :monitoredBy :_181 .
+
+:_185 a :Segment ;
+	a :TrackElement ;
+	:length "942"^^xsd:int .
+
+:_69 :elements :_185 .
+
+:_185 :monitoredBy :_181 .
+
+:_186 a :Segment ;
+	a :TrackElement ;
+	:length "191"^^xsd:int .
+
+:_69 :elements :_186 .
+
+:_186 :monitoredBy :_181 .
+
+:_187 a :Sensor .
+
+:_69 :sensors :_187 .
+
+:_174 :monitoredBy :_187 .
+
+:_68 :requires :_187 .
+
+:_188 a :Segment ;
+	a :TrackElement ;
+	:length "18"^^xsd:int .
+
+:_69 :elements :_188 .
+
+:_188 :monitoredBy :_187 .
+
+:_189 a :Segment ;
+	a :TrackElement ;
+	:length "1000"^^xsd:int .
+
+:_69 :elements :_189 .
+
+:_189 :monitoredBy :_187 .
+
+:_190 a :Segment ;
+	a :TrackElement ;
+	:length "488"^^xsd:int .
+
+:_69 :elements :_190 .
+
+:_190 :monitoredBy :_187 .
+
+:_191 a :Segment ;
+	a :TrackElement ;
+	:length "301"^^xsd:int .
+
+:_69 :elements :_191 .
+
+:_191 :monitoredBy :_187 .
+
+:_192 a :Segment ;
+	a :TrackElement ;
+	:length "559"^^xsd:int .
+
+:_69 :elements :_192 .
+
+:_192 :monitoredBy :_187 .
+
+:_193 a :Sensor .
+
+:_69 :sensors :_193 .
+
+:_174 :monitoredBy :_193 .
+
+:_68 :requires :_193 .
+
+:_194 a :Segment ;
+	a :TrackElement ;
+	:length "437"^^xsd:int .
+
+:_69 :elements :_194 .
+
+:_194 :monitoredBy :_193 .
+
+:_195 a :Segment ;
+	a :TrackElement ;
+	:length "997"^^xsd:int .
+
+:_69 :elements :_195 .
+
+:_195 :monitoredBy :_193 .
+
+:_196 a :Segment ;
+	a :TrackElement ;
+	:length "511"^^xsd:int .
+
+:_69 :elements :_196 .
+
+:_196 :monitoredBy :_193 .
+
+:_197 a :Segment ;
+	a :TrackElement ;
+	:length "494"^^xsd:int .
+
+:_69 :elements :_197 .
+
+:_197 :monitoredBy :_193 .
+
+:_198 a :Segment ;
+	a :TrackElement ;
+	:length "625"^^xsd:int .
+
+:_69 :elements :_198 .
+
+:_198 :monitoredBy :_193 .
+
+:_199 a :Sensor .
+
+:_69 :sensors :_199 .
+
+:_174 :monitoredBy :_199 .
+
+:_68 :requires :_199 .
+
+:_200 a :Segment ;
+	a :TrackElement ;
+	:length "23"^^xsd:int .
+
+:_69 :elements :_200 .
+
+:_200 :monitoredBy :_199 .
+
+:_201 a :Segment ;
+	a :TrackElement ;
+	:length "111"^^xsd:int .
+
+:_69 :elements :_201 .
+
+:_201 :monitoredBy :_199 .
+
+:_202 a :Segment ;
+	a :TrackElement ;
+	:length "578"^^xsd:int .
+
+:_69 :elements :_202 .
+
+:_202 :monitoredBy :_199 .
+
+:_203 a :Segment ;
+	a :TrackElement ;
+	:length "757"^^xsd:int .
+
+:_69 :elements :_203 .
+
+:_203 :monitoredBy :_199 .
+
+:_204 a :Segment ;
+	a :TrackElement ;
+	:length "893"^^xsd:int .
+
+:_69 :elements :_204 .
+
+:_204 :monitoredBy :_199 .
+
+:_205 a :Sensor .
+
+:_69 :sensors :_205 .
+
+:_174 :monitoredBy :_205 .
+
+:_68 :requires :_205 .
+
+:_206 a :Segment ;
+	a :TrackElement ;
+	:length "711"^^xsd:int .
+
+:_69 :elements :_206 .
+
+:_206 :monitoredBy :_205 .
+
+:_207 a :Segment ;
+	a :TrackElement ;
+	:length "227"^^xsd:int .
+
+:_69 :elements :_207 .
+
+:_207 :monitoredBy :_205 .
+
+:_208 a :Segment ;
+	a :TrackElement ;
+	:length "740"^^xsd:int .
+
+:_69 :elements :_208 .
+
+:_208 :monitoredBy :_205 .
+
+:_209 a :Segment ;
+	a :TrackElement ;
+	:length "145"^^xsd:int .
+
+:_69 :elements :_209 .
+
+:_209 :monitoredBy :_205 .
+
+:_210 a :Segment ;
+	a :TrackElement ;
+	:length "242"^^xsd:int .
+
+:_69 :elements :_210 .
+
+:_210 :monitoredBy :_205 .
+
+:_211 a :SwitchPosition ;
+	:position :POSITION_DIVERGING ;
+	:target :_174 .
+
+:_68 :follows :_211 .
+
+:_70 :connectsTo :_72 .
+
+:_72 :connectsTo :_73 .
+
+:_73 :connectsTo :_74 .
+
+:_74 :connectsTo :_75 .
+
+:_75 :connectsTo :_76 .
+
+:_76 :connectsTo :_78 .
+
+:_78 :connectsTo :_79 .
+
+:_79 :connectsTo :_80 .
+
+:_80 :connectsTo :_81 .
+
+:_81 :connectsTo :_82 .
+
+:_82 :connectsTo :_84 .
+
+:_84 :connectsTo :_85 .
+
+:_85 :connectsTo :_86 .
+
+:_86 :connectsTo :_87 .
+
+:_87 :connectsTo :_88 .
+
+:_88 :connectsTo :_90 .
+
+:_90 :connectsTo :_91 .
+
+:_91 :connectsTo :_92 .
+
+:_92 :connectsTo :_93 .
+
+:_93 :connectsTo :_94 .
+
+:_94 :connectsTo :_96 .
+
+:_96 :connectsTo :_97 .
+
+:_97 :connectsTo :_98 .
+
+:_98 :connectsTo :_99 .
+
+:_99 :connectsTo :_100 .
+
+:_100 :connectsTo :_102 .
+
+:_102 :connectsTo :_103 .
+
+:_103 :connectsTo :_104 .
+
+:_104 :connectsTo :_105 .
+
+:_105 :connectsTo :_106 .
+
+:_106 :connectsTo :_108 .
+
+:_108 :connectsTo :_109 .
+
+:_109 :connectsTo :_110 .
+
+:_110 :connectsTo :_111 .
+
+:_111 :connectsTo :_112 .
+
+:_112 :connectsTo :_114 .
+
+:_114 :connectsTo :_116 .
+
+:_116 :connectsTo :_117 .
+
+:_117 :connectsTo :_118 .
+
+:_118 :connectsTo :_119 .
+
+:_119 :connectsTo :_120 .
+
+:_120 :connectsTo :_122 .
+
+:_122 :connectsTo :_123 .
+
+:_123 :connectsTo :_124 .
+
+:_124 :connectsTo :_125 .
+
+:_125 :connectsTo :_126 .
+
+:_126 :connectsTo :_127 .
+
+:_127 :connectsTo :_129 .
+
+:_129 :connectsTo :_130 .
+
+:_130 :connectsTo :_131 .
+
+:_131 :connectsTo :_132 .
+
+:_132 :connectsTo :_133 .
+
+:_133 :connectsTo :_134 .
+
+:_134 :connectsTo :_136 .
+
+:_136 :connectsTo :_138 .
+
+:_138 :connectsTo :_139 .
+
+:_139 :connectsTo :_140 .
+
+:_140 :connectsTo :_141 .
+
+:_141 :connectsTo :_142 .
+
+:_142 :connectsTo :_144 .
+
+:_144 :connectsTo :_145 .
+
+:_145 :connectsTo :_146 .
+
+:_146 :connectsTo :_147 .
+
+:_147 :connectsTo :_148 .
+
+:_148 :connectsTo :_150 .
+
+:_150 :connectsTo :_151 .
+
+:_151 :connectsTo :_152 .
+
+:_152 :connectsTo :_153 .
+
+:_153 :connectsTo :_154 .
+
+:_154 :connectsTo :_156 .
+
+:_156 :connectsTo :_157 .
+
+:_157 :connectsTo :_158 .
+
+:_158 :connectsTo :_159 .
+
+:_159 :connectsTo :_160 .
+
+:_160 :connectsTo :_162 .
+
+:_162 :connectsTo :_163 .
+
+:_163 :connectsTo :_164 .
+
+:_164 :connectsTo :_165 .
+
+:_165 :connectsTo :_166 .
+
+:_166 :connectsTo :_168 .
+
+:_168 :connectsTo :_169 .
+
+:_169 :connectsTo :_170 .
+
+:_170 :connectsTo :_171 .
+
+:_171 :connectsTo :_172 .
+
+:_172 :connectsTo :_174 .
+
+:_174 :connectsTo :_176 .
+
+:_176 :connectsTo :_177 .
+
+:_177 :connectsTo :_178 .
+
+:_178 :connectsTo :_179 .
+
+:_179 :connectsTo :_180 .
+
+:_180 :connectsTo :_182 .
+
+:_182 :connectsTo :_183 .
+
+:_183 :connectsTo :_184 .
+
+:_184 :connectsTo :_185 .
+
+:_185 :connectsTo :_186 .
+
+:_186 :connectsTo :_188 .
+
+:_188 :connectsTo :_189 .
+
+:_189 :connectsTo :_190 .
+
+:_190 :connectsTo :_191 .
+
+:_191 :connectsTo :_192 .
+
+:_192 :connectsTo :_194 .
+
+:_194 :connectsTo :_195 .
+
+:_195 :connectsTo :_196 .
+
+:_196 :connectsTo :_197 .
+
+:_197 :connectsTo :_198 .
+
+:_198 :connectsTo :_200 .
+
+:_200 :connectsTo :_201 .
+
+:_201 :connectsTo :_202 .
+
+:_202 :connectsTo :_203 .
+
+:_203 :connectsTo :_204 .
+
+:_204 :connectsTo :_206 .
+
+:_206 :connectsTo :_207 .
+
+:_207 :connectsTo :_208 .
+
+:_208 :connectsTo :_209 .
+
+:_209 :connectsTo :_210 .
+
+:_65 :connectsTo :_70 .
+
+:_212 a :Semaphore ;
+	:signal :SIGNAL_GO .
+
+:_213 a :Route ;
+	:active true ;
+	:entry :_67 ;
+	:exit :_212 .
+
+:_214 a :Region .
+
+:_215 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_DIVERGING .
+
+:_214 :elements :_215 .
+
+:_216 a :Sensor .
+
+:_214 :sensors :_216 .
+
+:_215 :monitoredBy :_216 .
+
+:_213 :requires :_216 .
+
+:_217 a :Segment ;
+	a :TrackElement ;
+	:length "789"^^xsd:int .
+
+:_214 :elements :_217 .
+
+:_217 :monitoredBy :_216 .
+
+:_217 :semaphores :_212 .
+
+:_218 a :Segment ;
+	a :TrackElement ;
+	:length "840"^^xsd:int .
+
+:_214 :elements :_218 .
+
+:_218 :monitoredBy :_216 .
+
+:_219 a :Segment ;
+	a :TrackElement ;
+	:length "456"^^xsd:int .
+
+:_214 :elements :_219 .
+
+:_219 :monitoredBy :_216 .
+
+:_220 a :Segment ;
+	a :TrackElement ;
+	:length "284"^^xsd:int .
+
+:_214 :elements :_220 .
+
+:_220 :monitoredBy :_216 .
+
+:_221 a :Segment ;
+	a :TrackElement ;
+	:length "434"^^xsd:int .
+
+:_214 :elements :_221 .
+
+:_221 :monitoredBy :_216 .
+
+:_222 a :Sensor .
+
+:_214 :sensors :_222 .
+
+:_215 :monitoredBy :_222 .
+
+:_213 :requires :_222 .
+
+:_223 a :Segment ;
+	a :TrackElement ;
+	:length "546"^^xsd:int .
+
+:_214 :elements :_223 .
+
+:_223 :monitoredBy :_222 .
+
+:_224 a :Segment ;
+	a :TrackElement ;
+	:length "613"^^xsd:int .
+
+:_214 :elements :_224 .
+
+:_224 :monitoredBy :_222 .
+
+:_225 a :Segment ;
+	a :TrackElement ;
+	:length "977"^^xsd:int .
+
+:_214 :elements :_225 .
+
+:_225 :monitoredBy :_222 .
+
+:_226 a :Segment ;
+	a :TrackElement ;
+	:length "801"^^xsd:int .
+
+:_214 :elements :_226 .
+
+:_226 :monitoredBy :_222 .
+
+:_227 a :Segment ;
+	a :TrackElement ;
+	:length "824"^^xsd:int .
+
+:_214 :elements :_227 .
+
+:_227 :monitoredBy :_222 .
+
+:_228 a :Sensor .
+
+:_214 :sensors :_228 .
+
+:_215 :monitoredBy :_228 .
+
+:_213 :requires :_228 .
+
+:_229 a :Segment ;
+	a :TrackElement ;
+	:length "386"^^xsd:int .
+
+:_214 :elements :_229 .
+
+:_229 :monitoredBy :_228 .
+
+:_230 a :Segment ;
+	a :TrackElement ;
+	:length "395"^^xsd:int .
+
+:_214 :elements :_230 .
+
+:_230 :monitoredBy :_228 .
+
+:_231 a :Segment ;
+	a :TrackElement ;
+	:length "769"^^xsd:int .
+
+:_214 :elements :_231 .
+
+:_231 :monitoredBy :_228 .
+
+:_232 a :Segment ;
+	a :TrackElement ;
+	:length "608"^^xsd:int .
+
+:_214 :elements :_232 .
+
+:_232 :monitoredBy :_228 .
+
+:_233 a :Segment ;
+	a :TrackElement ;
+	:length "380"^^xsd:int .
+
+:_214 :elements :_233 .
+
+:_233 :monitoredBy :_228 .
+
+:_234 a :Sensor .
+
+:_214 :sensors :_234 .
+
+:_215 :monitoredBy :_234 .
+
+:_213 :requires :_234 .
+
+:_235 a :Segment ;
+	a :TrackElement ;
+	:length "829"^^xsd:int .
+
+:_214 :elements :_235 .
+
+:_235 :monitoredBy :_234 .
+
+:_236 a :Segment ;
+	a :TrackElement ;
+	:length "230"^^xsd:int .
+
+:_214 :elements :_236 .
+
+:_236 :monitoredBy :_234 .
+
+:_237 a :Segment ;
+	a :TrackElement ;
+	:length "-617"^^xsd:int .
+
+:_214 :elements :_237 .
+
+:_237 :monitoredBy :_234 .
+
+:_238 a :Segment ;
+	a :TrackElement ;
+	:length "609"^^xsd:int .
+
+:_214 :elements :_238 .
+
+:_238 :monitoredBy :_234 .
+
+:_239 a :Segment ;
+	a :TrackElement ;
+	:length "620"^^xsd:int .
+
+:_214 :elements :_239 .
+
+:_239 :monitoredBy :_234 .
+
+:_240 a :Sensor .
+
+:_214 :sensors :_240 .
+
+:_215 :monitoredBy :_240 .
+
+:_213 :requires :_240 .
+
+:_241 a :Segment ;
+	a :TrackElement ;
+	:length "486"^^xsd:int .
+
+:_214 :elements :_241 .
+
+:_241 :monitoredBy :_240 .
+
+:_242 a :Segment ;
+	a :TrackElement ;
+	:length "181"^^xsd:int .
+
+:_214 :elements :_242 .
+
+:_242 :monitoredBy :_240 .
+
+:_243 a :Segment ;
+	a :TrackElement ;
+	:length "921"^^xsd:int .
+
+:_214 :elements :_243 .
+
+:_243 :monitoredBy :_240 .
+
+:_244 a :Segment ;
+	a :TrackElement ;
+	:length "54"^^xsd:int .
+
+:_214 :elements :_244 .
+
+:_244 :monitoredBy :_240 .
+
+:_245 a :Segment ;
+	a :TrackElement ;
+	:length "329"^^xsd:int .
+
+:_214 :elements :_245 .
+
+:_245 :monitoredBy :_240 .
+
+:_246 a :Sensor .
+
+:_214 :sensors :_246 .
+
+:_215 :monitoredBy :_246 .
+
+:_213 :requires :_246 .
+
+:_247 a :Segment ;
+	a :TrackElement ;
+	:length "745"^^xsd:int .
+
+:_214 :elements :_247 .
+
+:_247 :monitoredBy :_246 .
+
+:_248 a :Segment ;
+	a :TrackElement ;
+	:length "703"^^xsd:int .
+
+:_214 :elements :_248 .
+
+:_248 :monitoredBy :_246 .
+
+:_249 a :Segment ;
+	a :TrackElement ;
+	:length "322"^^xsd:int .
+
+:_214 :elements :_249 .
+
+:_249 :monitoredBy :_246 .
+
+:_250 a :Segment ;
+	a :TrackElement ;
+	:length "763"^^xsd:int .
+
+:_214 :elements :_250 .
+
+:_250 :monitoredBy :_246 .
+
+:_251 a :Segment ;
+	a :TrackElement ;
+	:length "369"^^xsd:int .
+
+:_214 :elements :_251 .
+
+:_251 :monitoredBy :_246 .
+
+:_252 a :Sensor .
+
+:_214 :sensors :_252 .
+
+:_215 :monitoredBy :_252 .
+
+:_213 :requires :_252 .
+
+:_253 a :Segment ;
+	a :TrackElement ;
+	:length "890"^^xsd:int .
+
+:_214 :elements :_253 .
+
+:_253 :monitoredBy :_252 .
+
+:_254 a :Segment ;
+	a :TrackElement ;
+	:length "591"^^xsd:int .
+
+:_214 :elements :_254 .
+
+:_254 :monitoredBy :_252 .
+
+:_255 a :Segment ;
+	a :TrackElement ;
+	:length "736"^^xsd:int .
+
+:_214 :elements :_255 .
+
+:_255 :monitoredBy :_252 .
+
+:_256 a :Segment ;
+	a :TrackElement ;
+	:length "547"^^xsd:int .
+
+:_214 :elements :_256 .
+
+:_256 :monitoredBy :_252 .
+
+:_257 a :Segment ;
+	a :TrackElement ;
+	:length "836"^^xsd:int .
+
+:_214 :elements :_257 .
+
+:_257 :monitoredBy :_252 .
+
+:_258 a :Sensor .
+
+:_214 :sensors :_258 .
+
+:_215 :monitoredBy :_258 .
+
+:_213 :requires :_258 .
+
+:_259 a :Segment ;
+	a :TrackElement ;
+	:length "257"^^xsd:int .
+
+:_214 :elements :_259 .
+
+:_259 :monitoredBy :_258 .
+
+:_260 a :Segment ;
+	a :TrackElement ;
+	:length "746"^^xsd:int .
+
+:_214 :elements :_260 .
+
+:_260 :monitoredBy :_258 .
+
+:_261 a :Segment ;
+	a :TrackElement ;
+	:length "488"^^xsd:int .
+
+:_214 :elements :_261 .
+
+:_261 :monitoredBy :_258 .
+
+:_262 a :Segment ;
+	a :TrackElement ;
+	:length "830"^^xsd:int .
+
+:_214 :elements :_262 .
+
+:_262 :monitoredBy :_258 .
+
+:_263 a :Segment ;
+	a :TrackElement ;
+	:length "366"^^xsd:int .
+
+:_214 :elements :_263 .
+
+:_263 :monitoredBy :_258 .
+
+:_264 a :Sensor .
+
+:_214 :sensors :_264 .
+
+:_215 :monitoredBy :_264 .
+
+:_213 :requires :_264 .
+
+:_265 a :Segment ;
+	a :TrackElement ;
+	:length "754"^^xsd:int .
+
+:_214 :elements :_265 .
+
+:_265 :monitoredBy :_264 .
+
+:_266 a :Segment ;
+	a :TrackElement ;
+	:length "638"^^xsd:int .
+
+:_214 :elements :_266 .
+
+:_266 :monitoredBy :_264 .
+
+:_267 a :Segment ;
+	a :TrackElement ;
+	:length "214"^^xsd:int .
+
+:_214 :elements :_267 .
+
+:_267 :monitoredBy :_264 .
+
+:_268 a :Segment ;
+	a :TrackElement ;
+	:length "102"^^xsd:int .
+
+:_214 :elements :_268 .
+
+:_268 :monitoredBy :_264 .
+
+:_269 a :Segment ;
+	a :TrackElement ;
+	:length "985"^^xsd:int .
+
+:_214 :elements :_269 .
+
+:_269 :monitoredBy :_264 .
+
+:_270 a :SwitchPosition ;
+	:position :POSITION_DIVERGING ;
+	:target :_215 .
+
+:_213 :follows :_270 .
+
+:_271 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_STRAIGHT .
+
+:_214 :elements :_271 .
+
+:_272 a :Sensor .
+
+:_214 :sensors :_272 .
+
+:_271 :monitoredBy :_272 .
+
+:_213 :requires :_272 .
+
+:_273 a :Segment ;
+	a :TrackElement ;
+	:length "517"^^xsd:int .
+
+:_214 :elements :_273 .
+
+:_273 :monitoredBy :_272 .
+
+:_274 a :Segment ;
+	a :TrackElement ;
+	:length "302"^^xsd:int .
+
+:_214 :elements :_274 .
+
+:_274 :monitoredBy :_272 .
+
+:_275 a :Segment ;
+	a :TrackElement ;
+	:length "785"^^xsd:int .
+
+:_214 :elements :_275 .
+
+:_275 :monitoredBy :_272 .
+
+:_276 a :Segment ;
+	a :TrackElement ;
+	:length "593"^^xsd:int .
+
+:_214 :elements :_276 .
+
+:_276 :monitoredBy :_272 .
+
+:_277 a :Segment ;
+	a :TrackElement ;
+	:length "566"^^xsd:int .
+
+:_214 :elements :_277 .
+
+:_277 :monitoredBy :_272 .
+
+:_278 a :Sensor .
+
+:_214 :sensors :_278 .
+
+:_271 :monitoredBy :_278 .
+
+:_213 :requires :_278 .
+
+:_279 a :Segment ;
+	a :TrackElement ;
+	:length "570"^^xsd:int .
+
+:_214 :elements :_279 .
+
+:_279 :monitoredBy :_278 .
+
+:_280 a :Segment ;
+	a :TrackElement ;
+	:length "386"^^xsd:int .
+
+:_214 :elements :_280 .
+
+:_280 :monitoredBy :_278 .
+
+:_281 a :Segment ;
+	a :TrackElement ;
+	:length "949"^^xsd:int .
+
+:_214 :elements :_281 .
+
+:_281 :monitoredBy :_278 .
+
+:_282 a :Segment ;
+	a :TrackElement ;
+	:length "462"^^xsd:int .
+
+:_214 :elements :_282 .
+
+:_282 :monitoredBy :_278 .
+
+:_283 a :Segment ;
+	a :TrackElement ;
+	:length "158"^^xsd:int .
+
+:_214 :elements :_283 .
+
+:_283 :monitoredBy :_278 .
+
+:_284 a :SwitchPosition ;
+	:position :POSITION_STRAIGHT ;
+	:target :_271 .
+
+:_213 :follows :_284 .
+
+:_285 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_DIVERGING .
+
+:_214 :elements :_285 .
+
+:_286 a :Sensor .
+
+:_214 :sensors :_286 .
+
+:_285 :monitoredBy :_286 .
+
+:_213 :requires :_286 .
+
+:_287 a :Segment ;
+	a :TrackElement ;
+	:length "657"^^xsd:int .
+
+:_214 :elements :_287 .
+
+:_287 :monitoredBy :_286 .
+
+:_288 a :Segment ;
+	a :TrackElement ;
+	:length "697"^^xsd:int .
+
+:_214 :elements :_288 .
+
+:_288 :monitoredBy :_286 .
+
+:_289 a :Segment ;
+	a :TrackElement ;
+	:length "931"^^xsd:int .
+
+:_214 :elements :_289 .
+
+:_289 :monitoredBy :_286 .
+
+:_290 a :Segment ;
+	a :TrackElement ;
+	:length "225"^^xsd:int .
+
+:_214 :elements :_290 .
+
+:_290 :monitoredBy :_286 .
+
+:_291 a :Segment ;
+	a :TrackElement ;
+	:length "119"^^xsd:int .
+
+:_214 :elements :_291 .
+
+:_291 :monitoredBy :_286 .
+
+:_292 a :Sensor .
+
+:_214 :sensors :_292 .
+
+:_285 :monitoredBy :_292 .
+
+:_213 :requires :_292 .
+
+:_293 a :Segment ;
+	a :TrackElement ;
+	:length "999"^^xsd:int .
+
+:_214 :elements :_293 .
+
+:_293 :monitoredBy :_292 .
+
+:_294 a :Segment ;
+	a :TrackElement ;
+	:length "342"^^xsd:int .
+
+:_214 :elements :_294 .
+
+:_294 :monitoredBy :_292 .
+
+:_295 a :Segment ;
+	a :TrackElement ;
+	:length "490"^^xsd:int .
+
+:_214 :elements :_295 .
+
+:_295 :monitoredBy :_292 .
+
+:_296 a :Segment ;
+	a :TrackElement ;
+	:length "986"^^xsd:int .
+
+:_214 :elements :_296 .
+
+:_296 :monitoredBy :_292 .
+
+:_297 a :Segment ;
+	a :TrackElement ;
+	:length "392"^^xsd:int .
+
+:_214 :elements :_297 .
+
+:_297 :monitoredBy :_292 .
+
+:_298 a :Sensor .
+
+:_214 :sensors :_298 .
+
+:_285 :monitoredBy :_298 .
+
+:_213 :requires :_298 .
+
+:_299 a :Segment ;
+	a :TrackElement ;
+	:length "798"^^xsd:int .
+
+:_214 :elements :_299 .
+
+:_299 :monitoredBy :_298 .
+
+:_300 a :Segment ;
+	a :TrackElement ;
+	:length "782"^^xsd:int .
+
+:_214 :elements :_300 .
+
+:_300 :monitoredBy :_298 .
+
+:_301 a :Segment ;
+	a :TrackElement ;
+	:length "480"^^xsd:int .
+
+:_214 :elements :_301 .
+
+:_301 :monitoredBy :_298 .
+
+:_302 a :Segment ;
+	a :TrackElement ;
+	:length "212"^^xsd:int .
+
+:_214 :elements :_302 .
+
+:_302 :monitoredBy :_298 .
+
+:_303 a :Segment ;
+	a :TrackElement ;
+	:length "214"^^xsd:int .
+
+:_214 :elements :_303 .
+
+:_303 :monitoredBy :_298 .
+
+:_304 a :SwitchPosition ;
+	:position :POSITION_DIVERGING ;
+	:target :_285 .
+
+:_213 :follows :_304 .
+
+:_305 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_FAILURE .
+
+:_214 :elements :_305 .
+
+:_306 a :Sensor .
+
+:_214 :sensors :_306 .
+
+:_305 :monitoredBy :_306 .
+
+:_213 :requires :_306 .
+
+:_307 a :Segment ;
+	a :TrackElement ;
+	:length "907"^^xsd:int .
+
+:_214 :elements :_307 .
+
+:_307 :monitoredBy :_306 .
+
+:_308 a :Segment ;
+	a :TrackElement ;
+	:length "617"^^xsd:int .
+
+:_214 :elements :_308 .
+
+:_308 :monitoredBy :_306 .
+
+:_309 a :Segment ;
+	a :TrackElement ;
+	:length "118"^^xsd:int .
+
+:_214 :elements :_309 .
+
+:_309 :monitoredBy :_306 .
+
+:_310 a :Segment ;
+	a :TrackElement ;
+	:length "772"^^xsd:int .
+
+:_214 :elements :_310 .
+
+:_310 :monitoredBy :_306 .
+
+:_311 a :Segment ;
+	a :TrackElement ;
+	:length "533"^^xsd:int .
+
+:_214 :elements :_311 .
+
+:_311 :monitoredBy :_306 .
+
+:_312 a :SwitchPosition ;
+	:position :POSITION_FAILURE ;
+	:target :_305 .
+
+:_213 :follows :_312 .
+
+:_313 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_FAILURE .
+
+:_214 :elements :_313 .
+
+:_314 a :Sensor .
+
+:_214 :sensors :_314 .
+
+:_313 :monitoredBy :_314 .
+
+:_213 :requires :_314 .
+
+:_315 a :Segment ;
+	a :TrackElement ;
+	:length "981"^^xsd:int .
+
+:_214 :elements :_315 .
+
+:_315 :monitoredBy :_314 .
+
+:_316 a :Segment ;
+	a :TrackElement ;
+	:length "510"^^xsd:int .
+
+:_214 :elements :_316 .
+
+:_316 :monitoredBy :_314 .
+
+:_317 a :Segment ;
+	a :TrackElement ;
+	:length "186"^^xsd:int .
+
+:_214 :elements :_317 .
+
+:_317 :monitoredBy :_314 .
+
+:_318 a :Segment ;
+	a :TrackElement ;
+	:length "298"^^xsd:int .
+
+:_214 :elements :_318 .
+
+:_318 :monitoredBy :_314 .
+
+:_319 a :Segment ;
+	a :TrackElement ;
+	:length "324"^^xsd:int .
+
+:_214 :elements :_319 .
+
+:_319 :monitoredBy :_314 .
+
+:_320 a :Sensor .
+
+:_214 :sensors :_320 .
+
+:_313 :monitoredBy :_320 .
+
+:_213 :requires :_320 .
+
+:_321 a :Segment ;
+	a :TrackElement ;
+	:length "372"^^xsd:int .
+
+:_214 :elements :_321 .
+
+:_321 :monitoredBy :_320 .
+
+:_322 a :Segment ;
+	a :TrackElement ;
+	:length "881"^^xsd:int .
+
+:_214 :elements :_322 .
+
+:_322 :monitoredBy :_320 .
+
+:_323 a :Segment ;
+	a :TrackElement ;
+	:length "219"^^xsd:int .
+
+:_214 :elements :_323 .
+
+:_323 :monitoredBy :_320 .
+
+:_324 a :Segment ;
+	a :TrackElement ;
+	:length "740"^^xsd:int .
+
+:_214 :elements :_324 .
+
+:_324 :monitoredBy :_320 .
+
+:_325 a :Segment ;
+	a :TrackElement ;
+	:length "822"^^xsd:int .
+
+:_214 :elements :_325 .
+
+:_325 :monitoredBy :_320 .
+
+:_326 a :Sensor .
+
+:_214 :sensors :_326 .
+
+:_313 :monitoredBy :_326 .
+
+:_213 :requires :_326 .
+
+:_327 a :Segment ;
+	a :TrackElement ;
+	:length "897"^^xsd:int .
+
+:_214 :elements :_327 .
+
+:_327 :monitoredBy :_326 .
+
+:_328 a :Segment ;
+	a :TrackElement ;
+	:length "521"^^xsd:int .
+
+:_214 :elements :_328 .
+
+:_328 :monitoredBy :_326 .
+
+:_329 a :Segment ;
+	a :TrackElement ;
+	:length "685"^^xsd:int .
+
+:_214 :elements :_329 .
+
+:_329 :monitoredBy :_326 .
+
+:_330 a :Segment ;
+	a :TrackElement ;
+	:length "750"^^xsd:int .
+
+:_214 :elements :_330 .
+
+:_330 :monitoredBy :_326 .
+
+:_331 a :Segment ;
+	a :TrackElement ;
+	:length "630"^^xsd:int .
+
+:_214 :elements :_331 .
+
+:_331 :monitoredBy :_326 .
+
+:_332 a :Sensor .
+
+:_214 :sensors :_332 .
+
+:_313 :monitoredBy :_332 .
+
+:_213 :requires :_332 .
+
+:_333 a :Segment ;
+	a :TrackElement ;
+	:length "250"^^xsd:int .
+
+:_214 :elements :_333 .
+
+:_333 :monitoredBy :_332 .
+
+:_334 a :Segment ;
+	a :TrackElement ;
+	:length "809"^^xsd:int .
+
+:_214 :elements :_334 .
+
+:_334 :monitoredBy :_332 .
+
+:_335 a :Segment ;
+	a :TrackElement ;
+	:length "579"^^xsd:int .
+
+:_214 :elements :_335 .
+
+:_335 :monitoredBy :_332 .
+
+:_336 a :Segment ;
+	a :TrackElement ;
+	:length "77"^^xsd:int .
+
+:_214 :elements :_336 .
+
+:_336 :monitoredBy :_332 .
+
+:_337 a :Segment ;
+	a :TrackElement ;
+	:length "39"^^xsd:int .
+
+:_214 :elements :_337 .
+
+:_337 :monitoredBy :_332 .
+
+:_338 a :SwitchPosition ;
+	:position :POSITION_FAILURE ;
+	:target :_313 .
+
+:_213 :follows :_338 .
+
+:_339 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_DIVERGING .
+
+:_214 :elements :_339 .
+
+:_340 a :Sensor .
+
+:_214 :sensors :_340 .
+
+:_339 :monitoredBy :_340 .
+
+:_213 :requires :_340 .
+
+:_341 a :Segment ;
+	a :TrackElement ;
+	:length "719"^^xsd:int .
+
+:_214 :elements :_341 .
+
+:_341 :monitoredBy :_340 .
+
+:_342 a :Segment ;
+	a :TrackElement ;
+	:length "91"^^xsd:int .
+
+:_214 :elements :_342 .
+
+:_342 :monitoredBy :_340 .
+
+:_343 a :Segment ;
+	a :TrackElement ;
+	:length "796"^^xsd:int .
+
+:_214 :elements :_343 .
+
+:_343 :monitoredBy :_340 .
+
+:_344 a :Segment ;
+	a :TrackElement ;
+	:length "963"^^xsd:int .
+
+:_214 :elements :_344 .
+
+:_344 :monitoredBy :_340 .
+
+:_345 a :Segment ;
+	a :TrackElement ;
+	:length "894"^^xsd:int .
+
+:_214 :elements :_345 .
+
+:_345 :monitoredBy :_340 .
+
+:_346 a :Sensor .
+
+:_214 :sensors :_346 .
+
+:_339 :monitoredBy :_346 .
+
+:_213 :requires :_346 .
+
+:_347 a :Segment ;
+	a :TrackElement ;
+	:length "802"^^xsd:int .
+
+:_214 :elements :_347 .
+
+:_347 :monitoredBy :_346 .
+
+:_348 a :Segment ;
+	a :TrackElement ;
+	:length "951"^^xsd:int .
+
+:_214 :elements :_348 .
+
+:_348 :monitoredBy :_346 .
+
+:_349 a :Segment ;
+	a :TrackElement ;
+	:length "402"^^xsd:int .
+
+:_214 :elements :_349 .
+
+:_349 :monitoredBy :_346 .
+
+:_350 a :Segment ;
+	a :TrackElement ;
+	:length "718"^^xsd:int .
+
+:_214 :elements :_350 .
+
+:_350 :monitoredBy :_346 .
+
+:_351 a :Segment ;
+	a :TrackElement ;
+	:length "337"^^xsd:int .
+
+:_214 :elements :_351 .
+
+:_351 :monitoredBy :_346 .
+
+:_352 a :Sensor .
+
+:_214 :sensors :_352 .
+
+:_339 :monitoredBy :_352 .
+
+:_213 :requires :_352 .
+
+:_353 a :Segment ;
+	a :TrackElement ;
+	:length "942"^^xsd:int .
+
+:_214 :elements :_353 .
+
+:_353 :monitoredBy :_352 .
+
+:_354 a :Segment ;
+	a :TrackElement ;
+	:length "59"^^xsd:int .
+
+:_214 :elements :_354 .
+
+:_354 :monitoredBy :_352 .
+
+:_355 a :Segment ;
+	a :TrackElement ;
+	:length "547"^^xsd:int .
+
+:_214 :elements :_355 .
+
+:_355 :monitoredBy :_352 .
+
+:_356 a :Segment ;
+	a :TrackElement ;
+	:length "686"^^xsd:int .
+
+:_214 :elements :_356 .
+
+:_356 :monitoredBy :_352 .
+
+:_357 a :Segment ;
+	a :TrackElement ;
+	:length "836"^^xsd:int .
+
+:_214 :elements :_357 .
+
+:_357 :monitoredBy :_352 .
+
+:_358 a :SwitchPosition ;
+	:position :POSITION_DIVERGING ;
+	:target :_339 .
+
+:_213 :follows :_358 .
+
+:_359 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_FAILURE .
+
+:_214 :elements :_359 .
+
+:_360 a :Sensor .
+
+:_214 :sensors :_360 .
+
+:_359 :monitoredBy :_360 .
+
+:_213 :requires :_360 .
+
+:_361 a :Segment ;
+	a :TrackElement ;
+	:length "212"^^xsd:int .
+
+:_214 :elements :_361 .
+
+:_361 :monitoredBy :_360 .
+
+:_362 a :Segment ;
+	a :TrackElement ;
+	:length "579"^^xsd:int .
+
+:_214 :elements :_362 .
+
+:_362 :monitoredBy :_360 .
+
+:_363 a :Segment ;
+	a :TrackElement ;
+	:length "403"^^xsd:int .
+
+:_214 :elements :_363 .
+
+:_363 :monitoredBy :_360 .
+
+:_364 a :Segment ;
+	a :TrackElement ;
+	:length "218"^^xsd:int .
+
+:_214 :elements :_364 .
+
+:_364 :monitoredBy :_360 .
+
+:_365 a :Segment ;
+	a :TrackElement ;
+	:length "616"^^xsd:int .
+
+:_214 :elements :_365 .
+
+:_365 :monitoredBy :_360 .
+
+:_366 a :Sensor .
+
+:_214 :sensors :_366 .
+
+:_359 :monitoredBy :_366 .
+
+:_213 :requires :_366 .
+
+:_367 a :Segment ;
+	a :TrackElement ;
+	:length "191"^^xsd:int .
+
+:_214 :elements :_367 .
+
+:_367 :monitoredBy :_366 .
+
+:_368 a :Segment ;
+	a :TrackElement ;
+	:length "870"^^xsd:int .
+
+:_214 :elements :_368 .
+
+:_368 :monitoredBy :_366 .
+
+:_369 a :Segment ;
+	a :TrackElement ;
+	:length "-608"^^xsd:int .
+
+:_214 :elements :_369 .
+
+:_369 :monitoredBy :_366 .
+
+:_370 a :Segment ;
+	a :TrackElement ;
+	:length "344"^^xsd:int .
+
+:_214 :elements :_370 .
+
+:_370 :monitoredBy :_366 .
+
+:_371 a :Segment ;
+	a :TrackElement ;
+	:length "374"^^xsd:int .
+
+:_214 :elements :_371 .
+
+:_371 :monitoredBy :_366 .
+
+:_372 a :Sensor .
+
+:_214 :sensors :_372 .
+
+:_359 :monitoredBy :_372 .
+
+:_373 a :Segment ;
+	a :TrackElement ;
+	:length "333"^^xsd:int .
+
+:_214 :elements :_373 .
+
+:_373 :monitoredBy :_372 .
+
+:_374 a :Segment ;
+	a :TrackElement ;
+	:length "792"^^xsd:int .
+
+:_214 :elements :_374 .
+
+:_374 :monitoredBy :_372 .
+
+:_375 a :Segment ;
+	a :TrackElement ;
+	:length "923"^^xsd:int .
+
+:_214 :elements :_375 .
+
+:_375 :monitoredBy :_372 .
+
+:_376 a :Segment ;
+	a :TrackElement ;
+	:length "100"^^xsd:int .
+
+:_214 :elements :_376 .
+
+:_376 :monitoredBy :_372 .
+
+:_377 a :Segment ;
+	a :TrackElement ;
+	:length "627"^^xsd:int .
+
+:_214 :elements :_377 .
+
+:_377 :monitoredBy :_372 .
+
+:_378 a :Sensor .
+
+:_214 :sensors :_378 .
+
+:_359 :monitoredBy :_378 .
+
+:_213 :requires :_378 .
+
+:_379 a :Segment ;
+	a :TrackElement ;
+	:length "258"^^xsd:int .
+
+:_214 :elements :_379 .
+
+:_379 :monitoredBy :_378 .
+
+:_380 a :Segment ;
+	a :TrackElement ;
+	:length "699"^^xsd:int .
+
+:_214 :elements :_380 .
+
+:_380 :monitoredBy :_378 .
+
+:_381 a :Segment ;
+	a :TrackElement ;
+	:length "889"^^xsd:int .
+
+:_214 :elements :_381 .
+
+:_381 :monitoredBy :_378 .
+
+:_382 a :Segment ;
+	a :TrackElement ;
+	:length "11"^^xsd:int .
+
+:_214 :elements :_382 .
+
+:_382 :monitoredBy :_378 .
+
+:_383 a :Segment ;
+	a :TrackElement ;
+	:length "465"^^xsd:int .
+
+:_214 :elements :_383 .
+
+:_383 :monitoredBy :_378 .
+
+:_384 a :Sensor .
+
+:_214 :sensors :_384 .
+
+:_359 :monitoredBy :_384 .
+
+:_213 :requires :_384 .
+
+:_385 a :Segment ;
+	a :TrackElement ;
+	:length "14"^^xsd:int .
+
+:_214 :elements :_385 .
+
+:_385 :monitoredBy :_384 .
+
+:_386 a :Segment ;
+	a :TrackElement ;
+	:length "470"^^xsd:int .
+
+:_214 :elements :_386 .
+
+:_386 :monitoredBy :_384 .
+
+:_387 a :Segment ;
+	a :TrackElement ;
+	:length "232"^^xsd:int .
+
+:_214 :elements :_387 .
+
+:_387 :monitoredBy :_384 .
+
+:_388 a :Segment ;
+	a :TrackElement ;
+	:length "343"^^xsd:int .
+
+:_214 :elements :_388 .
+
+:_388 :monitoredBy :_384 .
+
+:_389 a :Segment ;
+	a :TrackElement ;
+	:length "605"^^xsd:int .
+
+:_214 :elements :_389 .
+
+:_389 :monitoredBy :_384 .
+
+:_390 a :Sensor .
+
+:_214 :sensors :_390 .
+
+:_359 :monitoredBy :_390 .
+
+:_213 :requires :_390 .
+
+:_391 a :Segment ;
+	a :TrackElement ;
+	:length "771"^^xsd:int .
+
+:_214 :elements :_391 .
+
+:_391 :monitoredBy :_390 .
+
+:_392 a :Segment ;
+	a :TrackElement ;
+	:length "799"^^xsd:int .
+
+:_214 :elements :_392 .
+
+:_392 :monitoredBy :_390 .
+
+:_393 a :Segment ;
+	a :TrackElement ;
+	:length "288"^^xsd:int .
+
+:_214 :elements :_393 .
+
+:_393 :monitoredBy :_390 .
+
+:_394 a :Segment ;
+	a :TrackElement ;
+	:length "333"^^xsd:int .
+
+:_214 :elements :_394 .
+
+:_394 :monitoredBy :_390 .
+
+:_395 a :Segment ;
+	a :TrackElement ;
+	:length "964"^^xsd:int .
+
+:_214 :elements :_395 .
+
+:_395 :monitoredBy :_390 .
+
+:_396 a :Sensor .
+
+:_214 :sensors :_396 .
+
+:_359 :monitoredBy :_396 .
+
+:_213 :requires :_396 .
+
+:_397 a :Segment ;
+	a :TrackElement ;
+	:length "994"^^xsd:int .
+
+:_214 :elements :_397 .
+
+:_397 :monitoredBy :_396 .
+
+:_398 a :Segment ;
+	a :TrackElement ;
+	:length "518"^^xsd:int .
+
+:_214 :elements :_398 .
+
+:_398 :monitoredBy :_396 .
+
+:_399 a :Segment ;
+	a :TrackElement ;
+	:length "167"^^xsd:int .
+
+:_214 :elements :_399 .
+
+:_399 :monitoredBy :_396 .
+
+:_400 a :Segment ;
+	a :TrackElement ;
+	:length "90"^^xsd:int .
+
+:_214 :elements :_400 .
+
+:_400 :monitoredBy :_396 .
+
+:_401 a :Segment ;
+	a :TrackElement ;
+	:length "466"^^xsd:int .
+
+:_214 :elements :_401 .
+
+:_401 :monitoredBy :_396 .
+
+:_402 a :SwitchPosition ;
+	:position :POSITION_DIVERGING ;
+	:target :_359 .
+
+:_213 :follows :_402 .
+
+:_403 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_DIVERGING .
+
+:_214 :elements :_403 .
+
+:_404 a :Sensor .
+
+:_214 :sensors :_404 .
+
+:_403 :monitoredBy :_404 .
+
+:_213 :requires :_404 .
+
+:_405 a :Segment ;
+	a :TrackElement ;
+	:length "52"^^xsd:int .
+
+:_214 :elements :_405 .
+
+:_405 :monitoredBy :_404 .
+
+:_406 a :Segment ;
+	a :TrackElement ;
+	:length "886"^^xsd:int .
+
+:_214 :elements :_406 .
+
+:_406 :monitoredBy :_404 .
+
+:_407 a :Segment ;
+	a :TrackElement ;
+	:length "685"^^xsd:int .
+
+:_214 :elements :_407 .
+
+:_407 :monitoredBy :_404 .
+
+:_408 a :Segment ;
+	a :TrackElement ;
+	:length "248"^^xsd:int .
+
+:_214 :elements :_408 .
+
+:_408 :monitoredBy :_404 .
+
+:_409 a :Segment ;
+	a :TrackElement ;
+	:length "404"^^xsd:int .
+
+:_214 :elements :_409 .
+
+:_409 :monitoredBy :_404 .
+
+:_410 a :Sensor .
+
+:_214 :sensors :_410 .
+
+:_403 :monitoredBy :_410 .
+
+:_213 :requires :_410 .
+
+:_411 a :Segment ;
+	a :TrackElement ;
+	:length "261"^^xsd:int .
+
+:_214 :elements :_411 .
+
+:_411 :monitoredBy :_410 .
+
+:_412 a :Segment ;
+	a :TrackElement ;
+	:length "111"^^xsd:int .
+
+:_214 :elements :_412 .
+
+:_412 :monitoredBy :_410 .
+
+:_413 a :Segment ;
+	a :TrackElement ;
+	:length "408"^^xsd:int .
+
+:_214 :elements :_413 .
+
+:_413 :monitoredBy :_410 .
+
+:_414 a :Segment ;
+	a :TrackElement ;
+	:length "852"^^xsd:int .
+
+:_214 :elements :_414 .
+
+:_414 :monitoredBy :_410 .
+
+:_415 a :Segment ;
+	a :TrackElement ;
+	:length "610"^^xsd:int .
+
+:_214 :elements :_415 .
+
+:_415 :monitoredBy :_410 .
+
+:_416 a :Sensor .
+
+:_214 :sensors :_416 .
+
+:_403 :monitoredBy :_416 .
+
+:_213 :requires :_416 .
+
+:_417 a :Segment ;
+	a :TrackElement ;
+	:length "36"^^xsd:int .
+
+:_214 :elements :_417 .
+
+:_417 :monitoredBy :_416 .
+
+:_418 a :Segment ;
+	a :TrackElement ;
+	:length "514"^^xsd:int .
+
+:_214 :elements :_418 .
+
+:_418 :monitoredBy :_416 .
+
+:_419 a :Segment ;
+	a :TrackElement ;
+	:length "458"^^xsd:int .
+
+:_214 :elements :_419 .
+
+:_419 :monitoredBy :_416 .
+
+:_420 a :Segment ;
+	a :TrackElement ;
+	:length "883"^^xsd:int .
+
+:_214 :elements :_420 .
+
+:_420 :monitoredBy :_416 .
+
+:_421 a :Segment ;
+	a :TrackElement ;
+	:length "918"^^xsd:int .
+
+:_214 :elements :_421 .
+
+:_421 :monitoredBy :_416 .
+
+:_422 a :Sensor .
+
+:_214 :sensors :_422 .
+
+:_403 :monitoredBy :_422 .
+
+:_213 :requires :_422 .
+
+:_423 a :Segment ;
+	a :TrackElement ;
+	:length "270"^^xsd:int .
+
+:_214 :elements :_423 .
+
+:_423 :monitoredBy :_422 .
+
+:_424 a :Segment ;
+	a :TrackElement ;
+	:length "345"^^xsd:int .
+
+:_214 :elements :_424 .
+
+:_424 :monitoredBy :_422 .
+
+:_425 a :Segment ;
+	a :TrackElement ;
+	:length "684"^^xsd:int .
+
+:_214 :elements :_425 .
+
+:_425 :monitoredBy :_422 .
+
+:_426 a :Segment ;
+	a :TrackElement ;
+	:length "820"^^xsd:int .
+
+:_214 :elements :_426 .
+
+:_426 :monitoredBy :_422 .
+
+:_427 a :Segment ;
+	a :TrackElement ;
+	:length "156"^^xsd:int .
+
+:_214 :elements :_427 .
+
+:_427 :monitoredBy :_422 .
+
+:_428 a :Sensor .
+
+:_214 :sensors :_428 .
+
+:_403 :monitoredBy :_428 .
+
+:_213 :requires :_428 .
+
+:_429 a :Segment ;
+	a :TrackElement ;
+	:length "428"^^xsd:int .
+
+:_214 :elements :_429 .
+
+:_429 :monitoredBy :_428 .
+
+:_430 a :Segment ;
+	a :TrackElement ;
+	:length "754"^^xsd:int .
+
+:_214 :elements :_430 .
+
+:_430 :monitoredBy :_428 .
+
+:_431 a :Segment ;
+	a :TrackElement ;
+	:length "714"^^xsd:int .
+
+:_214 :elements :_431 .
+
+:_431 :monitoredBy :_428 .
+
+:_432 a :Segment ;
+	a :TrackElement ;
+	:length "901"^^xsd:int .
+
+:_214 :elements :_432 .
+
+:_432 :monitoredBy :_428 .
+
+:_433 a :Segment ;
+	a :TrackElement ;
+	:length "735"^^xsd:int .
+
+:_214 :elements :_433 .
+
+:_433 :monitoredBy :_428 .
+
+:_434 a :Sensor .
+
+:_214 :sensors :_434 .
+
+:_403 :monitoredBy :_434 .
+
+:_213 :requires :_434 .
+
+:_435 a :Segment ;
+	a :TrackElement ;
+	:length "534"^^xsd:int .
+
+:_214 :elements :_435 .
+
+:_435 :monitoredBy :_434 .
+
+:_436 a :Segment ;
+	a :TrackElement ;
+	:length "372"^^xsd:int .
+
+:_214 :elements :_436 .
+
+:_436 :monitoredBy :_434 .
+
+:_437 a :Segment ;
+	a :TrackElement ;
+	:length "49"^^xsd:int .
+
+:_214 :elements :_437 .
+
+:_437 :monitoredBy :_434 .
+
+:_438 a :Segment ;
+	a :TrackElement ;
+	:length "917"^^xsd:int .
+
+:_214 :elements :_438 .
+
+:_438 :monitoredBy :_434 .
+
+:_439 a :Segment ;
+	a :TrackElement ;
+	:length "369"^^xsd:int .
+
+:_214 :elements :_439 .
+
+:_439 :monitoredBy :_434 .
+
+:_440 a :Sensor .
+
+:_214 :sensors :_440 .
+
+:_403 :monitoredBy :_440 .
+
+:_213 :requires :_440 .
+
+:_441 a :Segment ;
+	a :TrackElement ;
+	:length "373"^^xsd:int .
+
+:_214 :elements :_441 .
+
+:_441 :monitoredBy :_440 .
+
+:_442 a :Segment ;
+	a :TrackElement ;
+	:length "94"^^xsd:int .
+
+:_214 :elements :_442 .
+
+:_442 :monitoredBy :_440 .
+
+:_443 a :Segment ;
+	a :TrackElement ;
+	:length "507"^^xsd:int .
+
+:_214 :elements :_443 .
+
+:_443 :monitoredBy :_440 .
+
+:_444 a :Segment ;
+	a :TrackElement ;
+	:length "737"^^xsd:int .
+
+:_214 :elements :_444 .
+
+:_444 :monitoredBy :_440 .
+
+:_445 a :Segment ;
+	a :TrackElement ;
+	:length "348"^^xsd:int .
+
+:_214 :elements :_445 .
+
+:_445 :monitoredBy :_440 .
+
+:_446 a :Sensor .
+
+:_214 :sensors :_446 .
+
+:_403 :monitoredBy :_446 .
+
+:_213 :requires :_446 .
+
+:_447 a :Segment ;
+	a :TrackElement ;
+	:length "433"^^xsd:int .
+
+:_214 :elements :_447 .
+
+:_447 :monitoredBy :_446 .
+
+:_448 a :Segment ;
+	a :TrackElement ;
+	:length "411"^^xsd:int .
+
+:_214 :elements :_448 .
+
+:_448 :monitoredBy :_446 .
+
+:_449 a :Segment ;
+	a :TrackElement ;
+	:length "149"^^xsd:int .
+
+:_214 :elements :_449 .
+
+:_449 :monitoredBy :_446 .
+
+:_450 a :Segment ;
+	a :TrackElement ;
+	:length "541"^^xsd:int .
+
+:_214 :elements :_450 .
+
+:_450 :monitoredBy :_446 .
+
+:_451 a :Segment ;
+	a :TrackElement ;
+	:length "773"^^xsd:int .
+
+:_214 :elements :_451 .
+
+:_451 :monitoredBy :_446 .
+
+:_452 a :Sensor .
+
+:_214 :sensors :_452 .
+
+:_403 :monitoredBy :_452 .
+
+:_213 :requires :_452 .
+
+:_453 a :Segment ;
+	a :TrackElement ;
+	:length "278"^^xsd:int .
+
+:_214 :elements :_453 .
+
+:_453 :monitoredBy :_452 .
+
+:_454 a :Segment ;
+	a :TrackElement ;
+	:length "75"^^xsd:int .
+
+:_214 :elements :_454 .
+
+:_454 :monitoredBy :_452 .
+
+:_455 a :Segment ;
+	a :TrackElement ;
+	:length "70"^^xsd:int .
+
+:_214 :elements :_455 .
+
+:_455 :monitoredBy :_452 .
+
+:_456 a :Segment ;
+	a :TrackElement ;
+	:length "565"^^xsd:int .
+
+:_214 :elements :_456 .
+
+:_456 :monitoredBy :_452 .
+
+:_457 a :Segment ;
+	a :TrackElement ;
+	:length "809"^^xsd:int .
+
+:_214 :elements :_457 .
+
+:_457 :monitoredBy :_452 .
+
+:_458 a :SwitchPosition ;
+	:position :POSITION_DIVERGING ;
+	:target :_403 .
+
+:_213 :follows :_458 .
+
+:_459 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_STRAIGHT .
+
+:_214 :elements :_459 .
+
+:_460 a :Sensor .
+
+:_214 :sensors :_460 .
+
+:_459 :monitoredBy :_460 .
+
+:_461 a :Segment ;
+	a :TrackElement ;
+	:length "883"^^xsd:int .
+
+:_214 :elements :_461 .
+
+:_461 :monitoredBy :_460 .
+
+:_462 a :Segment ;
+	a :TrackElement ;
+	:length "160"^^xsd:int .
+
+:_214 :elements :_462 .
+
+:_462 :monitoredBy :_460 .
+
+:_463 a :Segment ;
+	a :TrackElement ;
+	:length "415"^^xsd:int .
+
+:_214 :elements :_463 .
+
+:_463 :monitoredBy :_460 .
+
+:_464 a :Segment ;
+	a :TrackElement ;
+	:length "744"^^xsd:int .
+
+:_214 :elements :_464 .
+
+:_464 :monitoredBy :_460 .
+
+:_465 a :Segment ;
+	a :TrackElement ;
+	:length "136"^^xsd:int .
+
+:_214 :elements :_465 .
+
+:_465 :monitoredBy :_460 .
+
+:_466 a :Sensor .
+
+:_214 :sensors :_466 .
+
+:_459 :monitoredBy :_466 .
+
+:_213 :requires :_466 .
+
+:_467 a :Segment ;
+	a :TrackElement ;
+	:length "461"^^xsd:int .
+
+:_214 :elements :_467 .
+
+:_467 :monitoredBy :_466 .
+
+:_468 a :Segment ;
+	a :TrackElement ;
+	:length "640"^^xsd:int .
+
+:_214 :elements :_468 .
+
+:_468 :monitoredBy :_466 .
+
+:_469 a :Segment ;
+	a :TrackElement ;
+	:length "224"^^xsd:int .
+
+:_214 :elements :_469 .
+
+:_469 :monitoredBy :_466 .
+
+:_470 a :Segment ;
+	a :TrackElement ;
+	:length "267"^^xsd:int .
+
+:_214 :elements :_470 .
+
+:_470 :monitoredBy :_466 .
+
+:_471 a :Segment ;
+	a :TrackElement ;
+	:length "857"^^xsd:int .
+
+:_214 :elements :_471 .
+
+:_471 :monitoredBy :_466 .
+
+:_472 a :Sensor .
+
+:_214 :sensors :_472 .
+
+:_459 :monitoredBy :_472 .
+
+:_213 :requires :_472 .
+
+:_473 a :Segment ;
+	a :TrackElement ;
+	:length "-92"^^xsd:int .
+
+:_214 :elements :_473 .
+
+:_473 :monitoredBy :_472 .
+
+:_474 a :Segment ;
+	a :TrackElement ;
+	:length "933"^^xsd:int .
+
+:_214 :elements :_474 .
+
+:_474 :monitoredBy :_472 .
+
+:_475 a :Segment ;
+	a :TrackElement ;
+	:length "627"^^xsd:int .
+
+:_214 :elements :_475 .
+
+:_475 :monitoredBy :_472 .
+
+:_476 a :Segment ;
+	a :TrackElement ;
+	:length "976"^^xsd:int .
+
+:_214 :elements :_476 .
+
+:_476 :monitoredBy :_472 .
+
+:_477 a :Segment ;
+	a :TrackElement ;
+	:length "773"^^xsd:int .
+
+:_214 :elements :_477 .
+
+:_477 :monitoredBy :_472 .
+
+:_478 a :Sensor .
+
+:_214 :sensors :_478 .
+
+:_459 :monitoredBy :_478 .
+
+:_479 a :Segment ;
+	a :TrackElement ;
+	:length "644"^^xsd:int .
+
+:_214 :elements :_479 .
+
+:_479 :monitoredBy :_478 .
+
+:_480 a :Segment ;
+	a :TrackElement ;
+	:length "493"^^xsd:int .
+
+:_214 :elements :_480 .
+
+:_480 :monitoredBy :_478 .
+
+:_481 a :Segment ;
+	a :TrackElement ;
+	:length "519"^^xsd:int .
+
+:_214 :elements :_481 .
+
+:_481 :monitoredBy :_478 .
+
+:_482 a :Segment ;
+	a :TrackElement ;
+	:length "273"^^xsd:int .
+
+:_214 :elements :_482 .
+
+:_482 :monitoredBy :_478 .
+
+:_483 a :Segment ;
+	a :TrackElement ;
+	:length "-641"^^xsd:int .
+
+:_214 :elements :_483 .
+
+:_483 :monitoredBy :_478 .
+
+:_484 a :Sensor .
+
+:_214 :sensors :_484 .
+
+:_459 :monitoredBy :_484 .
+
+:_213 :requires :_484 .
+
+:_485 a :Segment ;
+	a :TrackElement ;
+	:length "699"^^xsd:int .
+
+:_214 :elements :_485 .
+
+:_485 :monitoredBy :_484 .
+
+:_486 a :Segment ;
+	a :TrackElement ;
+	:length "207"^^xsd:int .
+
+:_214 :elements :_486 .
+
+:_486 :monitoredBy :_484 .
+
+:_487 a :Segment ;
+	a :TrackElement ;
+	:length "293"^^xsd:int .
+
+:_214 :elements :_487 .
+
+:_487 :monitoredBy :_484 .
+
+:_488 a :Segment ;
+	a :TrackElement ;
+	:length "157"^^xsd:int .
+
+:_214 :elements :_488 .
+
+:_488 :monitoredBy :_484 .
+
+:_489 a :Segment ;
+	a :TrackElement ;
+	:length "60"^^xsd:int .
+
+:_214 :elements :_489 .
+
+:_489 :monitoredBy :_484 .
+
+:_490 a :Sensor .
+
+:_214 :sensors :_490 .
+
+:_459 :monitoredBy :_490 .
+
+:_213 :requires :_490 .
+
+:_491 a :Segment ;
+	a :TrackElement ;
+	:length "620"^^xsd:int .
+
+:_214 :elements :_491 .
+
+:_491 :monitoredBy :_490 .
+
+:_492 a :Segment ;
+	a :TrackElement ;
+	:length "718"^^xsd:int .
+
+:_214 :elements :_492 .
+
+:_492 :monitoredBy :_490 .
+
+:_493 a :Segment ;
+	a :TrackElement ;
+	:length "905"^^xsd:int .
+
+:_214 :elements :_493 .
+
+:_493 :monitoredBy :_490 .
+
+:_494 a :Segment ;
+	a :TrackElement ;
+	:length "553"^^xsd:int .
+
+:_214 :elements :_494 .
+
+:_494 :monitoredBy :_490 .
+
+:_495 a :Segment ;
+	a :TrackElement ;
+	:length "453"^^xsd:int .
+
+:_214 :elements :_495 .
+
+:_495 :monitoredBy :_490 .
+
+:_496 a :Sensor .
+
+:_214 :sensors :_496 .
+
+:_459 :monitoredBy :_496 .
+
+:_213 :requires :_496 .
+
+:_497 a :Segment ;
+	a :TrackElement ;
+	:length "536"^^xsd:int .
+
+:_214 :elements :_497 .
+
+:_497 :monitoredBy :_496 .
+
+:_498 a :Segment ;
+	a :TrackElement ;
+	:length "322"^^xsd:int .
+
+:_214 :elements :_498 .
+
+:_498 :monitoredBy :_496 .
+
+:_499 a :Segment ;
+	a :TrackElement ;
+	:length "783"^^xsd:int .
+
+:_214 :elements :_499 .
+
+:_499 :monitoredBy :_496 .
+
+:_500 a :Segment ;
+	a :TrackElement ;
+	:length "524"^^xsd:int .
+
+:_214 :elements :_500 .
+
+:_500 :monitoredBy :_496 .
+
+:_501 a :Segment ;
+	a :TrackElement ;
+	:length "283"^^xsd:int .
+
+:_214 :elements :_501 .
+
+:_501 :monitoredBy :_496 .
+
+:_502 a :Sensor .
+
+:_214 :sensors :_502 .
+
+:_459 :monitoredBy :_502 .
+
+:_213 :requires :_502 .
+
+:_503 a :Segment ;
+	a :TrackElement ;
+	:length "82"^^xsd:int .
+
+:_214 :elements :_503 .
+
+:_503 :monitoredBy :_502 .
+
+:_504 a :Segment ;
+	a :TrackElement ;
+	:length "574"^^xsd:int .
+
+:_214 :elements :_504 .
+
+:_504 :monitoredBy :_502 .
+
+:_505 a :Segment ;
+	a :TrackElement ;
+	:length "36"^^xsd:int .
+
+:_214 :elements :_505 .
+
+:_505 :monitoredBy :_502 .
+
+:_506 a :Segment ;
+	a :TrackElement ;
+	:length "464"^^xsd:int .
+
+:_214 :elements :_506 .
+
+:_506 :monitoredBy :_502 .
+
+:_507 a :Segment ;
+	a :TrackElement ;
+	:length "263"^^xsd:int .
+
+:_214 :elements :_507 .
+
+:_507 :monitoredBy :_502 .
+
+:_508 a :SwitchPosition ;
+	:position :POSITION_STRAIGHT ;
+	:target :_459 .
+
+:_213 :follows :_508 .
+
+:_509 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_FAILURE .
+
+:_214 :elements :_509 .
+
+:_510 a :Sensor .
+
+:_214 :sensors :_510 .
+
+:_509 :monitoredBy :_510 .
+
+:_213 :requires :_510 .
+
+:_511 a :Segment ;
+	a :TrackElement ;
+	:length "717"^^xsd:int .
+
+:_214 :elements :_511 .
+
+:_511 :monitoredBy :_510 .
+
+:_512 a :Segment ;
+	a :TrackElement ;
+	:length "970"^^xsd:int .
+
+:_214 :elements :_512 .
+
+:_512 :monitoredBy :_510 .
+
+:_513 a :Segment ;
+	a :TrackElement ;
+	:length "150"^^xsd:int .
+
+:_214 :elements :_513 .
+
+:_513 :monitoredBy :_510 .
+
+:_514 a :Segment ;
+	a :TrackElement ;
+	:length "39"^^xsd:int .
+
+:_214 :elements :_514 .
+
+:_514 :monitoredBy :_510 .
+
+:_515 a :Segment ;
+	a :TrackElement ;
+	:length "159"^^xsd:int .
+
+:_214 :elements :_515 .
+
+:_515 :monitoredBy :_510 .
+
+:_516 a :Sensor .
+
+:_214 :sensors :_516 .
+
+:_509 :monitoredBy :_516 .
+
+:_213 :requires :_516 .
+
+:_517 a :Segment ;
+	a :TrackElement ;
+	:length "83"^^xsd:int .
+
+:_214 :elements :_517 .
+
+:_517 :monitoredBy :_516 .
+
+:_518 a :Segment ;
+	a :TrackElement ;
+	:length "683"^^xsd:int .
+
+:_214 :elements :_518 .
+
+:_518 :monitoredBy :_516 .
+
+:_519 a :Segment ;
+	a :TrackElement ;
+	:length "632"^^xsd:int .
+
+:_214 :elements :_519 .
+
+:_519 :monitoredBy :_516 .
+
+:_520 a :Segment ;
+	a :TrackElement ;
+	:length "806"^^xsd:int .
+
+:_214 :elements :_520 .
+
+:_520 :monitoredBy :_516 .
+
+:_521 a :Segment ;
+	a :TrackElement ;
+	:length "453"^^xsd:int .
+
+:_214 :elements :_521 .
+
+:_521 :monitoredBy :_516 .
+
+:_522 a :Sensor .
+
+:_214 :sensors :_522 .
+
+:_509 :monitoredBy :_522 .
+
+:_213 :requires :_522 .
+
+:_523 a :Segment ;
+	a :TrackElement ;
+	:length "777"^^xsd:int .
+
+:_214 :elements :_523 .
+
+:_523 :monitoredBy :_522 .
+
+:_524 a :Segment ;
+	a :TrackElement ;
+	:length "904"^^xsd:int .
+
+:_214 :elements :_524 .
+
+:_524 :monitoredBy :_522 .
+
+:_525 a :Segment ;
+	a :TrackElement ;
+	:length "546"^^xsd:int .
+
+:_214 :elements :_525 .
+
+:_525 :monitoredBy :_522 .
+
+:_526 a :Segment ;
+	a :TrackElement ;
+	:length "371"^^xsd:int .
+
+:_214 :elements :_526 .
+
+:_526 :monitoredBy :_522 .
+
+:_527 a :Segment ;
+	a :TrackElement ;
+	:length "352"^^xsd:int .
+
+:_214 :elements :_527 .
+
+:_527 :monitoredBy :_522 .
+
+:_528 a :Sensor .
+
+:_214 :sensors :_528 .
+
+:_509 :monitoredBy :_528 .
+
+:_213 :requires :_528 .
+
+:_529 a :Segment ;
+	a :TrackElement ;
+	:length "227"^^xsd:int .
+
+:_214 :elements :_529 .
+
+:_529 :monitoredBy :_528 .
+
+:_530 a :Segment ;
+	a :TrackElement ;
+	:length "742"^^xsd:int .
+
+:_214 :elements :_530 .
+
+:_530 :monitoredBy :_528 .
+
+:_531 a :Segment ;
+	a :TrackElement ;
+	:length "208"^^xsd:int .
+
+:_214 :elements :_531 .
+
+:_531 :monitoredBy :_528 .
+
+:_532 a :Segment ;
+	a :TrackElement ;
+	:length "177"^^xsd:int .
+
+:_214 :elements :_532 .
+
+:_532 :monitoredBy :_528 .
+
+:_533 a :Segment ;
+	a :TrackElement ;
+	:length "611"^^xsd:int .
+
+:_214 :elements :_533 .
+
+:_533 :monitoredBy :_528 .
+
+:_534 a :SwitchPosition ;
+	:position :POSITION_FAILURE ;
+	:target :_509 .
+
+:_213 :follows :_534 .
+
+:_535 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_STRAIGHT .
+
+:_214 :elements :_535 .
+
+:_536 a :Sensor .
+
+:_214 :sensors :_536 .
+
+:_535 :monitoredBy :_536 .
+
+:_213 :requires :_536 .
+
+:_537 a :Segment ;
+	a :TrackElement ;
+	:length "576"^^xsd:int .
+
+:_214 :elements :_537 .
+
+:_537 :monitoredBy :_536 .
+
+:_538 a :Segment ;
+	a :TrackElement ;
+	:length "605"^^xsd:int .
+
+:_214 :elements :_538 .
+
+:_538 :monitoredBy :_536 .
+
+:_539 a :Segment ;
+	a :TrackElement ;
+	:length "326"^^xsd:int .
+
+:_214 :elements :_539 .
+
+:_539 :monitoredBy :_536 .
+
+:_540 a :Segment ;
+	a :TrackElement ;
+	:length "386"^^xsd:int .
+
+:_214 :elements :_540 .
+
+:_540 :monitoredBy :_536 .
+
+:_541 a :Segment ;
+	a :TrackElement ;
+	:length "531"^^xsd:int .
+
+:_214 :elements :_541 .
+
+:_541 :monitoredBy :_536 .
+
+:_542 a :Sensor .
+
+:_214 :sensors :_542 .
+
+:_535 :monitoredBy :_542 .
+
+:_543 a :Segment ;
+	a :TrackElement ;
+	:length "781"^^xsd:int .
+
+:_214 :elements :_543 .
+
+:_543 :monitoredBy :_542 .
+
+:_544 a :Segment ;
+	a :TrackElement ;
+	:length "652"^^xsd:int .
+
+:_214 :elements :_544 .
+
+:_544 :monitoredBy :_542 .
+
+:_545 a :Segment ;
+	a :TrackElement ;
+	:length "83"^^xsd:int .
+
+:_214 :elements :_545 .
+
+:_545 :monitoredBy :_542 .
+
+:_546 a :Segment ;
+	a :TrackElement ;
+	:length "27"^^xsd:int .
+
+:_214 :elements :_546 .
+
+:_546 :monitoredBy :_542 .
+
+:_547 a :Segment ;
+	a :TrackElement ;
+	:length "973"^^xsd:int .
+
+:_214 :elements :_547 .
+
+:_547 :monitoredBy :_542 .
+
+:_548 a :Sensor .
+
+:_214 :sensors :_548 .
+
+:_535 :monitoredBy :_548 .
+
+:_213 :requires :_548 .
+
+:_549 a :Segment ;
+	a :TrackElement ;
+	:length "42"^^xsd:int .
+
+:_214 :elements :_549 .
+
+:_549 :monitoredBy :_548 .
+
+:_550 a :Segment ;
+	a :TrackElement ;
+	:length "918"^^xsd:int .
+
+:_214 :elements :_550 .
+
+:_550 :monitoredBy :_548 .
+
+:_551 a :Segment ;
+	a :TrackElement ;
+	:length "772"^^xsd:int .
+
+:_214 :elements :_551 .
+
+:_551 :monitoredBy :_548 .
+
+:_552 a :Segment ;
+	a :TrackElement ;
+	:length "185"^^xsd:int .
+
+:_214 :elements :_552 .
+
+:_552 :monitoredBy :_548 .
+
+:_553 a :Segment ;
+	a :TrackElement ;
+	:length "817"^^xsd:int .
+
+:_214 :elements :_553 .
+
+:_553 :monitoredBy :_548 .
+
+:_554 a :Sensor .
+
+:_214 :sensors :_554 .
+
+:_535 :monitoredBy :_554 .
+
+:_213 :requires :_554 .
+
+:_555 a :Segment ;
+	a :TrackElement ;
+	:length "850"^^xsd:int .
+
+:_214 :elements :_555 .
+
+:_555 :monitoredBy :_554 .
+
+:_556 a :Segment ;
+	a :TrackElement ;
+	:length "503"^^xsd:int .
+
+:_214 :elements :_556 .
+
+:_556 :monitoredBy :_554 .
+
+:_557 a :Segment ;
+	a :TrackElement ;
+	:length "314"^^xsd:int .
+
+:_214 :elements :_557 .
+
+:_557 :monitoredBy :_554 .
+
+:_558 a :Segment ;
+	a :TrackElement ;
+	:length "847"^^xsd:int .
+
+:_214 :elements :_558 .
+
+:_558 :monitoredBy :_554 .
+
+:_559 a :Segment ;
+	a :TrackElement ;
+	:length "300"^^xsd:int .
+
+:_214 :elements :_559 .
+
+:_559 :monitoredBy :_554 .
+
+:_560 a :Sensor .
+
+:_214 :sensors :_560 .
+
+:_535 :monitoredBy :_560 .
+
+:_213 :requires :_560 .
+
+:_561 a :Segment ;
+	a :TrackElement ;
+	:length "121"^^xsd:int .
+
+:_214 :elements :_561 .
+
+:_561 :monitoredBy :_560 .
+
+:_562 a :Segment ;
+	a :TrackElement ;
+	:length "51"^^xsd:int .
+
+:_214 :elements :_562 .
+
+:_562 :monitoredBy :_560 .
+
+:_563 a :Segment ;
+	a :TrackElement ;
+	:length "977"^^xsd:int .
+
+:_214 :elements :_563 .
+
+:_563 :monitoredBy :_560 .
+
+:_564 a :Segment ;
+	a :TrackElement ;
+	:length "270"^^xsd:int .
+
+:_214 :elements :_564 .
+
+:_564 :monitoredBy :_560 .
+
+:_565 a :Segment ;
+	a :TrackElement ;
+	:length "130"^^xsd:int .
+
+:_214 :elements :_565 .
+
+:_565 :monitoredBy :_560 .
+
+:_566 a :SwitchPosition ;
+	:position :POSITION_STRAIGHT ;
+	:target :_535 .
+
+:_213 :follows :_566 .
+
+:_567 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_STRAIGHT .
+
+:_214 :elements :_567 .
+
+:_568 a :Sensor .
+
+:_214 :sensors :_568 .
+
+:_567 :monitoredBy :_568 .
+
+:_213 :requires :_568 .
+
+:_569 a :Segment ;
+	a :TrackElement ;
+	:length "195"^^xsd:int .
+
+:_214 :elements :_569 .
+
+:_569 :monitoredBy :_568 .
+
+:_570 a :Segment ;
+	a :TrackElement ;
+	:length "69"^^xsd:int .
+
+:_214 :elements :_570 .
+
+:_570 :monitoredBy :_568 .
+
+:_571 a :Segment ;
+	a :TrackElement ;
+	:length "899"^^xsd:int .
+
+:_214 :elements :_571 .
+
+:_571 :monitoredBy :_568 .
+
+:_572 a :Segment ;
+	a :TrackElement ;
+	:length "47"^^xsd:int .
+
+:_214 :elements :_572 .
+
+:_572 :monitoredBy :_568 .
+
+:_573 a :Segment ;
+	a :TrackElement ;
+	:length "373"^^xsd:int .
+
+:_214 :elements :_573 .
+
+:_573 :monitoredBy :_568 .
+
+:_574 a :Sensor .
+
+:_214 :sensors :_574 .
+
+:_567 :monitoredBy :_574 .
+
+:_213 :requires :_574 .
+
+:_575 a :Segment ;
+	a :TrackElement ;
+	:length "521"^^xsd:int .
+
+:_214 :elements :_575 .
+
+:_575 :monitoredBy :_574 .
+
+:_576 a :Segment ;
+	a :TrackElement ;
+	:length "423"^^xsd:int .
+
+:_214 :elements :_576 .
+
+:_576 :monitoredBy :_574 .
+
+:_577 a :Segment ;
+	a :TrackElement ;
+	:length "21"^^xsd:int .
+
+:_214 :elements :_577 .
+
+:_577 :monitoredBy :_574 .
+
+:_578 a :Segment ;
+	a :TrackElement ;
+	:length "450"^^xsd:int .
+
+:_214 :elements :_578 .
+
+:_578 :monitoredBy :_574 .
+
+:_579 a :Segment ;
+	a :TrackElement ;
+	:length "820"^^xsd:int .
+
+:_214 :elements :_579 .
+
+:_579 :monitoredBy :_574 .
+
+:_580 a :SwitchPosition ;
+	:position :POSITION_STRAIGHT ;
+	:target :_567 .
+
+:_213 :follows :_580 .
+
+:_581 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_STRAIGHT .
+
+:_214 :elements :_581 .
+
+:_582 a :Sensor .
+
+:_214 :sensors :_582 .
+
+:_581 :monitoredBy :_582 .
+
+:_213 :requires :_582 .
+
+:_583 a :Segment ;
+	a :TrackElement ;
+	:length "372"^^xsd:int .
+
+:_214 :elements :_583 .
+
+:_583 :monitoredBy :_582 .
+
+:_584 a :Segment ;
+	a :TrackElement ;
+	:length "291"^^xsd:int .
+
+:_214 :elements :_584 .
+
+:_584 :monitoredBy :_582 .
+
+:_585 a :Segment ;
+	a :TrackElement ;
+	:length "993"^^xsd:int .
+
+:_214 :elements :_585 .
+
+:_585 :monitoredBy :_582 .
+
+:_586 a :Segment ;
+	a :TrackElement ;
+	:length "95"^^xsd:int .
+
+:_214 :elements :_586 .
+
+:_586 :monitoredBy :_582 .
+
+:_587 a :Segment ;
+	a :TrackElement ;
+	:length "455"^^xsd:int .
+
+:_214 :elements :_587 .
+
+:_587 :monitoredBy :_582 .
+
+:_588 a :Sensor .
+
+:_214 :sensors :_588 .
+
+:_581 :monitoredBy :_588 .
+
+:_589 a :Segment ;
+	a :TrackElement ;
+	:length "522"^^xsd:int .
+
+:_214 :elements :_589 .
+
+:_589 :monitoredBy :_588 .
+
+:_590 a :Segment ;
+	a :TrackElement ;
+	:length "325"^^xsd:int .
+
+:_214 :elements :_590 .
+
+:_590 :monitoredBy :_588 .
+
+:_591 a :Segment ;
+	a :TrackElement ;
+	:length "984"^^xsd:int .
+
+:_214 :elements :_591 .
+
+:_591 :monitoredBy :_588 .
+
+:_592 a :Segment ;
+	a :TrackElement ;
+	:length "536"^^xsd:int .
+
+:_214 :elements :_592 .
+
+:_592 :monitoredBy :_588 .
+
+:_593 a :Segment ;
+	a :TrackElement ;
+	:length "460"^^xsd:int .
+
+:_214 :elements :_593 .
+
+:_593 :monitoredBy :_588 .
+
+:_594 a :SwitchPosition ;
+	:position :POSITION_STRAIGHT ;
+	:target :_581 .
+
+:_213 :follows :_594 .
+
+:_595 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_FAILURE .
+
+:_214 :elements :_595 .
+
+:_596 a :Sensor .
+
+:_214 :sensors :_596 .
+
+:_595 :monitoredBy :_596 .
+
+:_213 :requires :_596 .
+
+:_597 a :Segment ;
+	a :TrackElement ;
+	:length "108"^^xsd:int .
+
+:_214 :elements :_597 .
+
+:_597 :monitoredBy :_596 .
+
+:_598 a :Segment ;
+	a :TrackElement ;
+	:length "691"^^xsd:int .
+
+:_214 :elements :_598 .
+
+:_598 :monitoredBy :_596 .
+
+:_599 a :Segment ;
+	a :TrackElement ;
+	:length "176"^^xsd:int .
+
+:_214 :elements :_599 .
+
+:_599 :monitoredBy :_596 .
+
+:_600 a :Segment ;
+	a :TrackElement ;
+	:length "822"^^xsd:int .
+
+:_214 :elements :_600 .
+
+:_600 :monitoredBy :_596 .
+
+:_601 a :Segment ;
+	a :TrackElement ;
+	:length "759"^^xsd:int .
+
+:_214 :elements :_601 .
+
+:_601 :monitoredBy :_596 .
+
+:_602 a :Sensor .
+
+:_214 :sensors :_602 .
+
+:_595 :monitoredBy :_602 .
+
+:_213 :requires :_602 .
+
+:_603 a :Segment ;
+	a :TrackElement ;
+	:length "348"^^xsd:int .
+
+:_214 :elements :_603 .
+
+:_603 :monitoredBy :_602 .
+
+:_604 a :Segment ;
+	a :TrackElement ;
+	:length "61"^^xsd:int .
+
+:_214 :elements :_604 .
+
+:_604 :monitoredBy :_602 .
+
+:_605 a :Segment ;
+	a :TrackElement ;
+	:length "-825"^^xsd:int .
+
+:_214 :elements :_605 .
+
+:_605 :monitoredBy :_602 .
+
+:_606 a :Segment ;
+	a :TrackElement ;
+	:length "917"^^xsd:int .
+
+:_214 :elements :_606 .
+
+:_606 :monitoredBy :_602 .
+
+:_607 a :Segment ;
+	a :TrackElement ;
+	:length "749"^^xsd:int .
+
+:_214 :elements :_607 .
+
+:_607 :monitoredBy :_602 .
+
+:_608 a :Sensor .
+
+:_214 :sensors :_608 .
+
+:_595 :monitoredBy :_608 .
+
+:_213 :requires :_608 .
+
+:_609 a :Segment ;
+	a :TrackElement ;
+	:length "569"^^xsd:int .
+
+:_214 :elements :_609 .
+
+:_609 :monitoredBy :_608 .
+
+:_610 a :Segment ;
+	a :TrackElement ;
+	:length "934"^^xsd:int .
+
+:_214 :elements :_610 .
+
+:_610 :monitoredBy :_608 .
+
+:_611 a :Segment ;
+	a :TrackElement ;
+	:length "971"^^xsd:int .
+
+:_214 :elements :_611 .
+
+:_611 :monitoredBy :_608 .
+
+:_612 a :Segment ;
+	a :TrackElement ;
+	:length "-902"^^xsd:int .
+
+:_214 :elements :_612 .
+
+:_612 :monitoredBy :_608 .
+
+:_613 a :Segment ;
+	a :TrackElement ;
+	:length "593"^^xsd:int .
+
+:_214 :elements :_613 .
+
+:_613 :monitoredBy :_608 .
+
+:_614 a :Sensor .
+
+:_214 :sensors :_614 .
+
+:_595 :monitoredBy :_614 .
+
+:_213 :requires :_614 .
+
+:_615 a :Segment ;
+	a :TrackElement ;
+	:length "571"^^xsd:int .
+
+:_214 :elements :_615 .
+
+:_615 :monitoredBy :_614 .
+
+:_616 a :Segment ;
+	a :TrackElement ;
+	:length "358"^^xsd:int .
+
+:_214 :elements :_616 .
+
+:_616 :monitoredBy :_614 .
+
+:_617 a :Segment ;
+	a :TrackElement ;
+	:length "787"^^xsd:int .
+
+:_214 :elements :_617 .
+
+:_617 :monitoredBy :_614 .
+
+:_618 a :Segment ;
+	a :TrackElement ;
+	:length "673"^^xsd:int .
+
+:_214 :elements :_618 .
+
+:_618 :monitoredBy :_614 .
+
+:_619 a :Segment ;
+	a :TrackElement ;
+	:length "35"^^xsd:int .
+
+:_214 :elements :_619 .
+
+:_619 :monitoredBy :_614 .
+
+:_620 a :SwitchPosition ;
+	:position :POSITION_FAILURE ;
+	:target :_595 .
+
+:_213 :follows :_620 .
+
+:_215 :connectsTo :_217 .
+
+:_217 :connectsTo :_218 .
+
+:_218 :connectsTo :_219 .
+
+:_219 :connectsTo :_220 .
+
+:_220 :connectsTo :_221 .
+
+:_221 :connectsTo :_223 .
+
+:_223 :connectsTo :_224 .
+
+:_224 :connectsTo :_225 .
+
+:_225 :connectsTo :_226 .
+
+:_226 :connectsTo :_227 .
+
+:_227 :connectsTo :_229 .
+
+:_229 :connectsTo :_230 .
+
+:_230 :connectsTo :_231 .
+
+:_231 :connectsTo :_232 .
+
+:_232 :connectsTo :_233 .
+
+:_233 :connectsTo :_235 .
+
+:_235 :connectsTo :_236 .
+
+:_236 :connectsTo :_237 .
+
+:_237 :connectsTo :_238 .
+
+:_238 :connectsTo :_239 .
+
+:_239 :connectsTo :_241 .
+
+:_241 :connectsTo :_242 .
+
+:_242 :connectsTo :_243 .
+
+:_243 :connectsTo :_244 .
+
+:_244 :connectsTo :_245 .
+
+:_245 :connectsTo :_247 .
+
+:_247 :connectsTo :_248 .
+
+:_248 :connectsTo :_249 .
+
+:_249 :connectsTo :_250 .
+
+:_250 :connectsTo :_251 .
+
+:_251 :connectsTo :_253 .
+
+:_253 :connectsTo :_254 .
+
+:_254 :connectsTo :_255 .
+
+:_255 :connectsTo :_256 .
+
+:_256 :connectsTo :_257 .
+
+:_257 :connectsTo :_259 .
+
+:_259 :connectsTo :_260 .
+
+:_260 :connectsTo :_261 .
+
+:_261 :connectsTo :_262 .
+
+:_262 :connectsTo :_263 .
+
+:_263 :connectsTo :_265 .
+
+:_265 :connectsTo :_266 .
+
+:_266 :connectsTo :_267 .
+
+:_267 :connectsTo :_268 .
+
+:_268 :connectsTo :_269 .
+
+:_269 :connectsTo :_271 .
+
+:_271 :connectsTo :_273 .
+
+:_273 :connectsTo :_274 .
+
+:_274 :connectsTo :_275 .
+
+:_275 :connectsTo :_276 .
+
+:_276 :connectsTo :_277 .
+
+:_277 :connectsTo :_279 .
+
+:_279 :connectsTo :_280 .
+
+:_280 :connectsTo :_281 .
+
+:_281 :connectsTo :_282 .
+
+:_282 :connectsTo :_283 .
+
+:_283 :connectsTo :_285 .
+
+:_285 :connectsTo :_287 .
+
+:_287 :connectsTo :_288 .
+
+:_288 :connectsTo :_289 .
+
+:_289 :connectsTo :_290 .
+
+:_290 :connectsTo :_291 .
+
+:_291 :connectsTo :_293 .
+
+:_293 :connectsTo :_294 .
+
+:_294 :connectsTo :_295 .
+
+:_295 :connectsTo :_296 .
+
+:_296 :connectsTo :_297 .
+
+:_297 :connectsTo :_299 .
+
+:_299 :connectsTo :_300 .
+
+:_300 :connectsTo :_301 .
+
+:_301 :connectsTo :_302 .
+
+:_302 :connectsTo :_303 .
+
+:_303 :connectsTo :_305 .
+
+:_305 :connectsTo :_307 .
+
+:_307 :connectsTo :_308 .
+
+:_308 :connectsTo :_309 .
+
+:_309 :connectsTo :_310 .
+
+:_310 :connectsTo :_311 .
+
+:_311 :connectsTo :_313 .
+
+:_313 :connectsTo :_315 .
+
+:_315 :connectsTo :_316 .
+
+:_316 :connectsTo :_317 .
+
+:_317 :connectsTo :_318 .
+
+:_318 :connectsTo :_319 .
+
+:_319 :connectsTo :_321 .
+
+:_321 :connectsTo :_322 .
+
+:_322 :connectsTo :_323 .
+
+:_323 :connectsTo :_324 .
+
+:_324 :connectsTo :_325 .
+
+:_325 :connectsTo :_327 .
+
+:_327 :connectsTo :_328 .
+
+:_328 :connectsTo :_329 .
+
+:_329 :connectsTo :_330 .
+
+:_330 :connectsTo :_331 .
+
+:_331 :connectsTo :_333 .
+
+:_333 :connectsTo :_334 .
+
+:_334 :connectsTo :_335 .
+
+:_335 :connectsTo :_336 .
+
+:_336 :connectsTo :_337 .
+
+:_337 :connectsTo :_339 .
+
+:_339 :connectsTo :_341 .
+
+:_341 :connectsTo :_342 .
+
+:_342 :connectsTo :_343 .
+
+:_343 :connectsTo :_344 .
+
+:_344 :connectsTo :_345 .
+
+:_345 :connectsTo :_347 .
+
+:_347 :connectsTo :_348 .
+
+:_348 :connectsTo :_349 .
+
+:_349 :connectsTo :_350 .
+
+:_350 :connectsTo :_351 .
+
+:_351 :connectsTo :_353 .
+
+:_353 :connectsTo :_354 .
+
+:_354 :connectsTo :_355 .
+
+:_355 :connectsTo :_356 .
+
+:_356 :connectsTo :_357 .
+
+:_357 :connectsTo :_359 .
+
+:_359 :connectsTo :_361 .
+
+:_361 :connectsTo :_362 .
+
+:_362 :connectsTo :_363 .
+
+:_363 :connectsTo :_364 .
+
+:_364 :connectsTo :_365 .
+
+:_365 :connectsTo :_367 .
+
+:_367 :connectsTo :_368 .
+
+:_368 :connectsTo :_369 .
+
+:_369 :connectsTo :_370 .
+
+:_370 :connectsTo :_371 .
+
+:_371 :connectsTo :_373 .
+
+:_373 :connectsTo :_374 .
+
+:_374 :connectsTo :_375 .
+
+:_375 :connectsTo :_376 .
+
+:_376 :connectsTo :_377 .
+
+:_377 :connectsTo :_379 .
+
+:_379 :connectsTo :_380 .
+
+:_380 :connectsTo :_381 .
+
+:_381 :connectsTo :_382 .
+
+:_382 :connectsTo :_383 .
+
+:_383 :connectsTo :_385 .
+
+:_385 :connectsTo :_386 .
+
+:_386 :connectsTo :_387 .
+
+:_387 :connectsTo :_388 .
+
+:_388 :connectsTo :_389 .
+
+:_389 :connectsTo :_391 .
+
+:_392 :connectsTo :_393 .
+
+:_393 :connectsTo :_394 .
+
+:_394 :connectsTo :_395 .
+
+:_395 :connectsTo :_397 .
+
+:_397 :connectsTo :_398 .
+
+:_398 :connectsTo :_399 .
+
+:_399 :connectsTo :_400 .
+
+:_400 :connectsTo :_401 .
+
+:_401 :connectsTo :_403 .
+
+:_403 :connectsTo :_405 .
+
+:_405 :connectsTo :_406 .
+
+:_406 :connectsTo :_407 .
+
+:_407 :connectsTo :_408 .
+
+:_408 :connectsTo :_409 .
+
+:_409 :connectsTo :_411 .
+
+:_411 :connectsTo :_412 .
+
+:_412 :connectsTo :_413 .
+
+:_413 :connectsTo :_414 .
+
+:_414 :connectsTo :_415 .
+
+:_415 :connectsTo :_417 .
+
+:_417 :connectsTo :_418 .
+
+:_418 :connectsTo :_419 .
+
+:_419 :connectsTo :_420 .
+
+:_420 :connectsTo :_421 .
+
+:_421 :connectsTo :_423 .
+
+:_423 :connectsTo :_424 .
+
+:_424 :connectsTo :_425 .
+
+:_425 :connectsTo :_426 .
+
+:_426 :connectsTo :_427 .
+
+:_427 :connectsTo :_429 .
+
+:_429 :connectsTo :_430 .
+
+:_430 :connectsTo :_431 .
+
+:_431 :connectsTo :_432 .
+
+:_432 :connectsTo :_433 .
+
+:_433 :connectsTo :_435 .
+
+:_435 :connectsTo :_436 .
+
+:_436 :connectsTo :_437 .
+
+:_437 :connectsTo :_438 .
+
+:_438 :connectsTo :_439 .
+
+:_439 :connectsTo :_441 .
+
+:_441 :connectsTo :_442 .
+
+:_442 :connectsTo :_443 .
+
+:_443 :connectsTo :_444 .
+
+:_444 :connectsTo :_445 .
+
+:_445 :connectsTo :_447 .
+
+:_447 :connectsTo :_448 .
+
+:_448 :connectsTo :_449 .
+
+:_449 :connectsTo :_450 .
+
+:_450 :connectsTo :_451 .
+
+:_451 :connectsTo :_453 .
+
+:_453 :connectsTo :_454 .
+
+:_454 :connectsTo :_455 .
+
+:_455 :connectsTo :_456 .
+
+:_456 :connectsTo :_457 .
+
+:_457 :connectsTo :_459 .
+
+:_459 :connectsTo :_461 .
+
+:_461 :connectsTo :_462 .
+
+:_462 :connectsTo :_463 .
+
+:_463 :connectsTo :_464 .
+
+:_464 :connectsTo :_465 .
+
+:_465 :connectsTo :_467 .
+
+:_467 :connectsTo :_468 .
+
+:_468 :connectsTo :_469 .
+
+:_469 :connectsTo :_470 .
+
+:_470 :connectsTo :_471 .
+
+:_471 :connectsTo :_473 .
+
+:_473 :connectsTo :_474 .
+
+:_474 :connectsTo :_475 .
+
+:_475 :connectsTo :_476 .
+
+:_476 :connectsTo :_477 .
+
+:_477 :connectsTo :_479 .
+
+:_479 :connectsTo :_480 .
+
+:_480 :connectsTo :_481 .
+
+:_481 :connectsTo :_482 .
+
+:_482 :connectsTo :_483 .
+
+:_483 :connectsTo :_485 .
+
+:_485 :connectsTo :_486 .
+
+:_486 :connectsTo :_487 .
+
+:_487 :connectsTo :_488 .
+
+:_488 :connectsTo :_489 .
+
+:_489 :connectsTo :_491 .
+
+:_491 :connectsTo :_492 .
+
+:_492 :connectsTo :_493 .
+
+:_493 :connectsTo :_494 .
+
+:_494 :connectsTo :_495 .
+
+:_495 :connectsTo :_497 .
+
+:_497 :connectsTo :_498 .
+
+:_498 :connectsTo :_499 .
+
+:_499 :connectsTo :_500 .
+
+:_500 :connectsTo :_501 .
+
+:_501 :connectsTo :_503 .
+
+:_503 :connectsTo :_504 .
+
+:_504 :connectsTo :_505 .
+
+:_505 :connectsTo :_506 .
+
+:_506 :connectsTo :_507 .
+
+:_507 :connectsTo :_509 .
+
+:_509 :connectsTo :_511 .
+
+:_511 :connectsTo :_512 .
+
+:_512 :connectsTo :_513 .
+
+:_513 :connectsTo :_514 .
+
+:_514 :connectsTo :_515 .
+
+:_515 :connectsTo :_517 .
+
+:_517 :connectsTo :_518 .
+
+:_518 :connectsTo :_519 .
+
+:_519 :connectsTo :_520 .
+
+:_520 :connectsTo :_521 .
+
+:_521 :connectsTo :_523 .
+
+:_523 :connectsTo :_524 .
+
+:_524 :connectsTo :_525 .
+
+:_525 :connectsTo :_526 .
+
+:_526 :connectsTo :_527 .
+
+:_527 :connectsTo :_529 .
+
+:_529 :connectsTo :_530 .
+
+:_530 :connectsTo :_531 .
+
+:_531 :connectsTo :_532 .
+
+:_532 :connectsTo :_533 .
+
+:_533 :connectsTo :_535 .
+
+:_535 :connectsTo :_537 .
+
+:_537 :connectsTo :_538 .
+
+:_538 :connectsTo :_539 .
+
+:_539 :connectsTo :_540 .
+
+:_540 :connectsTo :_541 .
+
+:_541 :connectsTo :_543 .
+
+:_543 :connectsTo :_544 .
+
+:_544 :connectsTo :_545 .
+
+:_545 :connectsTo :_546 .
+
+:_546 :connectsTo :_547 .
+
+:_547 :connectsTo :_549 .
+
+:_549 :connectsTo :_550 .
+
+:_550 :connectsTo :_551 .
+
+:_551 :connectsTo :_552 .
+
+:_552 :connectsTo :_553 .
+
+:_553 :connectsTo :_555 .
+
+:_555 :connectsTo :_556 .
+
+:_556 :connectsTo :_557 .
+
+:_557 :connectsTo :_558 .
+
+:_558 :connectsTo :_559 .
+
+:_559 :connectsTo :_561 .
+
+:_561 :connectsTo :_562 .
+
+:_562 :connectsTo :_563 .
+
+:_563 :connectsTo :_564 .
+
+:_564 :connectsTo :_565 .
+
+:_565 :connectsTo :_567 .
+
+:_567 :connectsTo :_569 .
+
+:_569 :connectsTo :_570 .
+
+:_570 :connectsTo :_571 .
+
+:_571 :connectsTo :_572 .
+
+:_572 :connectsTo :_573 .
+
+:_573 :connectsTo :_575 .
+
+:_575 :connectsTo :_576 .
+
+:_576 :connectsTo :_577 .
+
+:_577 :connectsTo :_578 .
+
+:_578 :connectsTo :_579 .
+
+:_579 :connectsTo :_581 .
+
+:_581 :connectsTo :_583 .
+
+:_583 :connectsTo :_584 .
+
+:_584 :connectsTo :_585 .
+
+:_585 :connectsTo :_586 .
+
+:_586 :connectsTo :_587 .
+
+:_587 :connectsTo :_589 .
+
+:_589 :connectsTo :_590 .
+
+:_590 :connectsTo :_591 .
+
+:_591 :connectsTo :_592 .
+
+:_592 :connectsTo :_593 .
+
+:_593 :connectsTo :_595 .
+
+:_595 :connectsTo :_597 .
+
+:_597 :connectsTo :_598 .
+
+:_598 :connectsTo :_599 .
+
+:_599 :connectsTo :_600 .
+
+:_600 :connectsTo :_601 .
+
+:_601 :connectsTo :_603 .
+
+:_603 :connectsTo :_604 .
+
+:_604 :connectsTo :_605 .
+
+:_605 :connectsTo :_606 .
+
+:_606 :connectsTo :_607 .
+
+:_607 :connectsTo :_609 .
+
+:_609 :connectsTo :_610 .
+
+:_610 :connectsTo :_611 .
+
+:_611 :connectsTo :_612 .
+
+:_612 :connectsTo :_613 .
+
+:_613 :connectsTo :_615 .
+
+:_615 :connectsTo :_616 .
+
+:_616 :connectsTo :_617 .
+
+:_617 :connectsTo :_618 .
+
+:_618 :connectsTo :_619 .
+
+:_210 :connectsTo :_215 .
+
+:_621 a :Route ;
+	:active true ;
+	:entry :_212 ;
+	:exit :_1 .
+
+:_622 a :Region .
+
+:_623 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_FAILURE .
+
+:_622 :elements :_623 .
+
+:_624 a :Sensor .
+
+:_622 :sensors :_624 .
+
+:_623 :monitoredBy :_624 .
+
+:_621 :requires :_624 .
+
+:_625 a :Segment ;
+	a :TrackElement ;
+	:length "969"^^xsd:int .
+
+:_622 :elements :_625 .
+
+:_625 :monitoredBy :_624 .
+
+:_625 :semaphores :_1 .
+
+:_626 a :Segment ;
+	a :TrackElement ;
+	:length "718"^^xsd:int .
+
+:_622 :elements :_626 .
+
+:_626 :monitoredBy :_624 .
+
+:_627 a :Segment ;
+	a :TrackElement ;
+	:length "421"^^xsd:int .
+
+:_622 :elements :_627 .
+
+:_627 :monitoredBy :_624 .
+
+:_628 a :Segment ;
+	a :TrackElement ;
+	:length "307"^^xsd:int .
+
+:_622 :elements :_628 .
+
+:_628 :monitoredBy :_624 .
+
+:_629 a :Segment ;
+	a :TrackElement ;
+	:length "514"^^xsd:int .
+
+:_622 :elements :_629 .
+
+:_629 :monitoredBy :_624 .
+
+:_630 a :SwitchPosition ;
+	:position :POSITION_FAILURE ;
+	:target :_623 .
+
+:_621 :follows :_630 .
+
+:_631 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_FAILURE .
+
+:_622 :elements :_631 .
+
+:_632 a :Sensor .
+
+:_622 :sensors :_632 .
+
+:_631 :monitoredBy :_632 .
+
+:_621 :requires :_632 .
+
+:_633 a :Segment ;
+	a :TrackElement ;
+	:length "161"^^xsd:int .
+
+:_622 :elements :_633 .
+
+:_633 :monitoredBy :_632 .
+
+:_634 a :Segment ;
+	a :TrackElement ;
+	:length "530"^^xsd:int .
+
+:_622 :elements :_634 .
+
+:_634 :monitoredBy :_632 .
+
+:_635 a :Segment ;
+	a :TrackElement ;
+	:length "1000"^^xsd:int .
+
+:_622 :elements :_635 .
+
+:_635 :monitoredBy :_632 .
+
+:_636 a :Segment ;
+	a :TrackElement ;
+	:length "686"^^xsd:int .
+
+:_622 :elements :_636 .
+
+:_636 :monitoredBy :_632 .
+
+:_637 a :Segment ;
+	a :TrackElement ;
+	:length "534"^^xsd:int .
+
+:_622 :elements :_637 .
+
+:_637 :monitoredBy :_632 .
+
+:_638 a :Sensor .
+
+:_622 :sensors :_638 .
+
+:_631 :monitoredBy :_638 .
+
+:_621 :requires :_638 .
+
+:_639 a :Segment ;
+	a :TrackElement ;
+	:length "-856"^^xsd:int .
+
+:_622 :elements :_639 .
+
+:_639 :monitoredBy :_638 .
+
+:_640 a :Segment ;
+	a :TrackElement ;
+	:length "520"^^xsd:int .
+
+:_622 :elements :_640 .
+
+:_640 :monitoredBy :_638 .
+
+:_641 a :Segment ;
+	a :TrackElement ;
+	:length "909"^^xsd:int .
+
+:_622 :elements :_641 .
+
+:_641 :monitoredBy :_638 .
+
+:_642 a :Segment ;
+	a :TrackElement ;
+	:length "664"^^xsd:int .
+
+:_622 :elements :_642 .
+
+:_642 :monitoredBy :_638 .
+
+:_643 a :Segment ;
+	a :TrackElement ;
+	:length "750"^^xsd:int .
+
+:_622 :elements :_643 .
+
+:_643 :monitoredBy :_638 .
+
+:_644 a :Sensor .
+
+:_622 :sensors :_644 .
+
+:_631 :monitoredBy :_644 .
+
+:_621 :requires :_644 .
+
+:_645 a :Segment ;
+	a :TrackElement ;
+	:length "944"^^xsd:int .
+
+:_622 :elements :_645 .
+
+:_645 :monitoredBy :_644 .
+
+:_646 a :Segment ;
+	a :TrackElement ;
+	:length "200"^^xsd:int .
+
+:_622 :elements :_646 .
+
+:_646 :monitoredBy :_644 .
+
+:_647 a :Segment ;
+	a :TrackElement ;
+	:length "895"^^xsd:int .
+
+:_622 :elements :_647 .
+
+:_647 :monitoredBy :_644 .
+
+:_648 a :Segment ;
+	a :TrackElement ;
+	:length "79"^^xsd:int .
+
+:_622 :elements :_648 .
+
+:_648 :monitoredBy :_644 .
+
+:_649 a :Segment ;
+	a :TrackElement ;
+	:length "214"^^xsd:int .
+
+:_622 :elements :_649 .
+
+:_649 :monitoredBy :_644 .
+
+:_650 a :Sensor .
+
+:_622 :sensors :_650 .
+
+:_631 :monitoredBy :_650 .
+
+:_621 :requires :_650 .
+
+:_651 a :Segment ;
+	a :TrackElement ;
+	:length "135"^^xsd:int .
+
+:_622 :elements :_651 .
+
+:_651 :monitoredBy :_650 .
+
+:_652 a :Segment ;
+	a :TrackElement ;
+	:length "345"^^xsd:int .
+
+:_622 :elements :_652 .
+
+:_652 :monitoredBy :_650 .
+
+:_653 a :Segment ;
+	a :TrackElement ;
+	:length "493"^^xsd:int .
+
+:_622 :elements :_653 .
+
+:_653 :monitoredBy :_650 .
+
+:_654 a :Segment ;
+	a :TrackElement ;
+	:length "922"^^xsd:int .
+
+:_622 :elements :_654 .
+
+:_654 :monitoredBy :_650 .
+
+:_655 a :Segment ;
+	a :TrackElement ;
+	:length "943"^^xsd:int .
+
+:_622 :elements :_655 .
+
+:_655 :monitoredBy :_650 .
+
+:_656 a :Sensor .
+
+:_622 :sensors :_656 .
+
+:_631 :monitoredBy :_656 .
+
+:_621 :requires :_656 .
+
+:_657 a :Segment ;
+	a :TrackElement ;
+	:length "639"^^xsd:int .
+
+:_622 :elements :_657 .
+
+:_657 :monitoredBy :_656 .
+
+:_658 a :Segment ;
+	a :TrackElement ;
+	:length "168"^^xsd:int .
+
+:_622 :elements :_658 .
+
+:_658 :monitoredBy :_656 .
+
+:_659 a :Segment ;
+	a :TrackElement ;
+	:length "758"^^xsd:int .
+
+:_622 :elements :_659 .
+
+:_659 :monitoredBy :_656 .
+
+:_660 a :Segment ;
+	a :TrackElement ;
+	:length "432"^^xsd:int .
+
+:_622 :elements :_660 .
+
+:_660 :monitoredBy :_656 .
+
+:_661 a :Segment ;
+	a :TrackElement ;
+	:length "89"^^xsd:int .
+
+:_622 :elements :_661 .
+
+:_661 :monitoredBy :_656 .
+
+:_662 a :Sensor .
+
+:_622 :sensors :_662 .
+
+:_631 :monitoredBy :_662 .
+
+:_621 :requires :_662 .
+
+:_663 a :Segment ;
+	a :TrackElement ;
+	:length "589"^^xsd:int .
+
+:_622 :elements :_663 .
+
+:_663 :monitoredBy :_662 .
+
+:_664 a :Segment ;
+	a :TrackElement ;
+	:length "135"^^xsd:int .
+
+:_622 :elements :_664 .
+
+:_664 :monitoredBy :_662 .
+
+:_665 a :Segment ;
+	a :TrackElement ;
+	:length "533"^^xsd:int .
+
+:_622 :elements :_665 .
+
+:_665 :monitoredBy :_662 .
+
+:_666 a :Segment ;
+	a :TrackElement ;
+	:length "735"^^xsd:int .
+
+:_622 :elements :_666 .
+
+:_666 :monitoredBy :_662 .
+
+:_667 a :Segment ;
+	a :TrackElement ;
+	:length "632"^^xsd:int .
+
+:_622 :elements :_667 .
+
+:_667 :monitoredBy :_662 .
+
+:_668 a :Sensor .
+
+:_622 :sensors :_668 .
+
+:_631 :monitoredBy :_668 .
+
+:_621 :requires :_668 .
+
+:_669 a :Segment ;
+	a :TrackElement ;
+	:length "342"^^xsd:int .
+
+:_622 :elements :_669 .
+
+:_669 :monitoredBy :_668 .
+
+:_670 a :Segment ;
+	a :TrackElement ;
+	:length "469"^^xsd:int .
+
+:_622 :elements :_670 .
+
+:_670 :monitoredBy :_668 .
+
+:_671 a :Segment ;
+	a :TrackElement ;
+	:length "29"^^xsd:int .
+
+:_622 :elements :_671 .
+
+:_671 :monitoredBy :_668 .
+
+:_672 a :Segment ;
+	a :TrackElement ;
+	:length "576"^^xsd:int .
+
+:_622 :elements :_672 .
+
+:_672 :monitoredBy :_668 .
+
+:_673 a :Segment ;
+	a :TrackElement ;
+	:length "320"^^xsd:int .
+
+:_622 :elements :_673 .
+
+:_673 :monitoredBy :_668 .
+
+:_674 a :SwitchPosition ;
+	:position :POSITION_FAILURE ;
+	:target :_631 .
+
+:_621 :follows :_674 .
+
+:_675 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_DIVERGING .
+
+:_622 :elements :_675 .
+
+:_676 a :Sensor .
+
+:_622 :sensors :_676 .
+
+:_675 :monitoredBy :_676 .
+
+:_621 :requires :_676 .
+
+:_677 a :Segment ;
+	a :TrackElement ;
+	:length "78"^^xsd:int .
+
+:_622 :elements :_677 .
+
+:_677 :monitoredBy :_676 .
+
+:_678 a :Segment ;
+	a :TrackElement ;
+	:length "225"^^xsd:int .
+
+:_622 :elements :_678 .
+
+:_678 :monitoredBy :_676 .
+
+:_679 a :Segment ;
+	a :TrackElement ;
+	:length "56"^^xsd:int .
+
+:_622 :elements :_679 .
+
+:_679 :monitoredBy :_676 .
+
+:_680 a :Segment ;
+	a :TrackElement ;
+	:length "966"^^xsd:int .
+
+:_622 :elements :_680 .
+
+:_680 :monitoredBy :_676 .
+
+:_681 a :Segment ;
+	a :TrackElement ;
+	:length "161"^^xsd:int .
+
+:_622 :elements :_681 .
+
+:_681 :monitoredBy :_676 .
+
+:_682 a :Sensor .
+
+:_622 :sensors :_682 .
+
+:_675 :monitoredBy :_682 .
+
+:_621 :requires :_682 .
+
+:_683 a :Segment ;
+	a :TrackElement ;
+	:length "517"^^xsd:int .
+
+:_622 :elements :_683 .
+
+:_683 :monitoredBy :_682 .
+
+:_684 a :Segment ;
+	a :TrackElement ;
+	:length "145"^^xsd:int .
+
+:_622 :elements :_684 .
+
+:_684 :monitoredBy :_682 .
+
+:_685 a :Segment ;
+	a :TrackElement ;
+	:length "778"^^xsd:int .
+
+:_622 :elements :_685 .
+
+:_685 :monitoredBy :_682 .
+
+:_686 a :Segment ;
+	a :TrackElement ;
+	:length "-902"^^xsd:int .
+
+:_622 :elements :_686 .
+
+:_686 :monitoredBy :_682 .
+
+:_687 a :Segment ;
+	a :TrackElement ;
+	:length "467"^^xsd:int .
+
+:_622 :elements :_687 .
+
+:_687 :monitoredBy :_682 .
+
+:_688 a :Sensor .
+
+:_622 :sensors :_688 .
+
+:_675 :monitoredBy :_688 .
+
+:_621 :requires :_688 .
+
+:_689 a :Segment ;
+	a :TrackElement ;
+	:length "53"^^xsd:int .
+
+:_622 :elements :_689 .
+
+:_689 :monitoredBy :_688 .
+
+:_690 a :Segment ;
+	a :TrackElement ;
+	:length "367"^^xsd:int .
+
+:_622 :elements :_690 .
+
+:_690 :monitoredBy :_688 .
+
+:_691 a :Segment ;
+	a :TrackElement ;
+	:length "916"^^xsd:int .
+
+:_622 :elements :_691 .
+
+:_691 :monitoredBy :_688 .
+
+:_692 a :Segment ;
+	a :TrackElement ;
+	:length "522"^^xsd:int .
+
+:_622 :elements :_692 .
+
+:_692 :monitoredBy :_688 .
+
+:_693 a :Segment ;
+	a :TrackElement ;
+	:length "182"^^xsd:int .
+
+:_622 :elements :_693 .
+
+:_693 :monitoredBy :_688 .
+
+:_694 a :Segment ;
+	a :TrackElement ;
+	:length "579"^^xsd:int .
+
+:_622 :elements :_694 .
+
+:_694 :monitoredBy :_688 .
+
+:_695 a :SwitchPosition ;
+	:position :POSITION_DIVERGING ;
+	:target :_675 .
+
+:_621 :follows :_695 .
+
+:_696 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_DIVERGING .
+
+:_622 :elements :_696 .
+
+:_697 a :Sensor .
+
+:_622 :sensors :_697 .
+
+:_696 :monitoredBy :_697 .
+
+:_621 :requires :_697 .
+
+:_698 a :Segment ;
+	a :TrackElement ;
+	:length "972"^^xsd:int .
+
+:_622 :elements :_698 .
+
+:_698 :monitoredBy :_697 .
+
+:_699 a :Segment ;
+	a :TrackElement ;
+	:length "940"^^xsd:int .
+
+:_622 :elements :_699 .
+
+:_699 :monitoredBy :_697 .
+
+:_700 a :Segment ;
+	a :TrackElement ;
+	:length "349"^^xsd:int .
+
+:_622 :elements :_700 .
+
+:_700 :monitoredBy :_697 .
+
+:_701 a :Segment ;
+	a :TrackElement ;
+	:length "900"^^xsd:int .
+
+:_622 :elements :_701 .
+
+:_701 :monitoredBy :_697 .
+
+:_702 a :Segment ;
+	a :TrackElement ;
+	:length "695"^^xsd:int .
+
+:_622 :elements :_702 .
+
+:_702 :monitoredBy :_697 .
+
+:_703 a :Sensor .
+
+:_622 :sensors :_703 .
+
+:_696 :monitoredBy :_703 .
+
+:_621 :requires :_703 .
+
+:_704 a :Segment ;
+	a :TrackElement ;
+	:length "449"^^xsd:int .
+
+:_622 :elements :_704 .
+
+:_704 :monitoredBy :_703 .
+
+:_705 a :Segment ;
+	a :TrackElement ;
+	:length "223"^^xsd:int .
+
+:_622 :elements :_705 .
+
+:_705 :monitoredBy :_703 .
+
+:_706 a :Segment ;
+	a :TrackElement ;
+	:length "51"^^xsd:int .
+
+:_622 :elements :_706 .
+
+:_706 :monitoredBy :_703 .
+
+:_707 a :Segment ;
+	a :TrackElement ;
+	:length "-161"^^xsd:int .
+
+:_622 :elements :_707 .
+
+:_707 :monitoredBy :_703 .
+
+:_708 a :Segment ;
+	a :TrackElement ;
+	:length "332"^^xsd:int .
+
+:_622 :elements :_708 .
+
+:_708 :monitoredBy :_703 .
+
+:_709 a :Sensor .
+
+:_622 :sensors :_709 .
+
+:_696 :monitoredBy :_709 .
+
+:_621 :requires :_709 .
+
+:_710 a :Segment ;
+	a :TrackElement ;
+	:length "81"^^xsd:int .
+
+:_622 :elements :_710 .
+
+:_710 :monitoredBy :_709 .
+
+:_711 a :Segment ;
+	a :TrackElement ;
+	:length "282"^^xsd:int .
+
+:_622 :elements :_711 .
+
+:_711 :monitoredBy :_709 .
+
+:_712 a :Segment ;
+	a :TrackElement ;
+	:length "510"^^xsd:int .
+
+:_622 :elements :_712 .
+
+:_712 :monitoredBy :_709 .
+
+:_713 a :Segment ;
+	a :TrackElement ;
+	:length "983"^^xsd:int .
+
+:_622 :elements :_713 .
+
+:_713 :monitoredBy :_709 .
+
+:_714 a :Segment ;
+	a :TrackElement ;
+	:length "941"^^xsd:int .
+
+:_622 :elements :_714 .
+
+:_714 :monitoredBy :_709 .
+
+:_715 a :Sensor .
+
+:_622 :sensors :_715 .
+
+:_696 :monitoredBy :_715 .
+
+:_621 :requires :_715 .
+
+:_716 a :Segment ;
+	a :TrackElement ;
+	:length "78"^^xsd:int .
+
+:_622 :elements :_716 .
+
+:_716 :monitoredBy :_715 .
+
+:_717 a :Segment ;
+	a :TrackElement ;
+	:length "777"^^xsd:int .
+
+:_622 :elements :_717 .
+
+:_717 :monitoredBy :_715 .
+
+:_718 a :Segment ;
+	a :TrackElement ;
+	:length "229"^^xsd:int .
+
+:_622 :elements :_718 .
+
+:_718 :monitoredBy :_715 .
+
+:_719 a :Segment ;
+	a :TrackElement ;
+	:length "997"^^xsd:int .
+
+:_622 :elements :_719 .
+
+:_719 :monitoredBy :_715 .
+
+:_720 a :Segment ;
+	a :TrackElement ;
+	:length "137"^^xsd:int .
+
+:_622 :elements :_720 .
+
+:_720 :monitoredBy :_715 .
+
+:_721 a :Sensor .
+
+:_622 :sensors :_721 .
+
+:_696 :monitoredBy :_721 .
+
+:_621 :requires :_721 .
+
+:_722 a :Segment ;
+	a :TrackElement ;
+	:length "596"^^xsd:int .
+
+:_622 :elements :_722 .
+
+:_722 :monitoredBy :_721 .
+
+:_723 a :Segment ;
+	a :TrackElement ;
+	:length "916"^^xsd:int .
+
+:_622 :elements :_723 .
+
+:_723 :monitoredBy :_721 .
+
+:_724 a :Segment ;
+	a :TrackElement ;
+	:length "331"^^xsd:int .
+
+:_622 :elements :_724 .
+
+:_724 :monitoredBy :_721 .
+
+:_725 a :Segment ;
+	a :TrackElement ;
+	:length "407"^^xsd:int .
+
+:_622 :elements :_725 .
+
+:_725 :monitoredBy :_721 .
+
+:_726 a :Segment ;
+	a :TrackElement ;
+	:length "500"^^xsd:int .
+
+:_622 :elements :_726 .
+
+:_726 :monitoredBy :_721 .
+
+:_727 a :Sensor .
+
+:_622 :sensors :_727 .
+
+:_696 :monitoredBy :_727 .
+
+:_621 :requires :_727 .
+
+:_728 a :Segment ;
+	a :TrackElement ;
+	:length "54"^^xsd:int .
+
+:_622 :elements :_728 .
+
+:_728 :monitoredBy :_727 .
+
+:_729 a :Segment ;
+	a :TrackElement ;
+	:length "683"^^xsd:int .
+
+:_622 :elements :_729 .
+
+:_729 :monitoredBy :_727 .
+
+:_730 a :Segment ;
+	a :TrackElement ;
+	:length "50"^^xsd:int .
+
+:_622 :elements :_730 .
+
+:_730 :monitoredBy :_727 .
+
+:_731 a :Segment ;
+	a :TrackElement ;
+	:length "633"^^xsd:int .
+
+:_622 :elements :_731 .
+
+:_731 :monitoredBy :_727 .
+
+:_732 a :Segment ;
+	a :TrackElement ;
+	:length "578"^^xsd:int .
+
+:_622 :elements :_732 .
+
+:_732 :monitoredBy :_727 .
+
+:_733 a :SwitchPosition ;
+	:position :POSITION_DIVERGING ;
+	:target :_696 .
+
+:_621 :follows :_733 .
+
+:_734 a :Switch ;
+	a :TrackElement ;
+	:currentPosition :POSITION_FAILURE .
+
+:_622 :elements :_734 .
+
+:_735 a :Sensor .
+
+:_622 :sensors :_735 .
+
+:_734 :monitoredBy :_735 .
+
+:_621 :requires :_735 .
+
+:_736 a :Segment ;
+	a :TrackElement ;
+	:length "456"^^xsd:int .
+
+:_622 :elements :_736 .
+
+:_736 :monitoredBy :_735 .
+
+:_737 a :Segment ;
+	a :TrackElement ;
+	:length "596"^^xsd:int .
+
+:_622 :elements :_737 .
+
+:_737 :monitoredBy :_735 .
+
+:_738 a :Segment ;
+	a :TrackElement ;
+	:length "525"^^xsd:int .
+
+:_622 :elements :_738 .
+
+:_738 :monitoredBy :_735 .
+
+:_739 a :Segment ;
+	a :TrackElement ;
+	:length "836"^^xsd:int .
+
+:_622 :elements :_739 .
+
+:_739 :monitoredBy :_735 .
+
+:_740 a :Segment ;
+	a :TrackElement ;
+	:length "691"^^xsd:int .
+
+:_622 :elements :_740 .
+
+:_740 :monitoredBy :_735 .
+
+:_741 a :SwitchPosition ;
+	:position :POSITION_FAILURE ;
+	:target :_734 .
+
+:_621 :follows :_741 .
+
+:_623 :connectsTo :_625 .
+
+:_625 :connectsTo :_626 .
+
+:_626 :connectsTo :_627 .
+
+:_627 :connectsTo :_628 .
+
+:_628 :connectsTo :_629 .
+
+:_629 :connectsTo :_631 .
+
+:_631 :connectsTo :_633 .
+
+:_633 :connectsTo :_634 .
+
+:_634 :connectsTo :_635 .
+
+:_635 :connectsTo :_636 .
+
+:_636 :connectsTo :_637 .
+
+:_637 :connectsTo :_639 .
+
+:_639 :connectsTo :_640 .
+
+:_640 :connectsTo :_641 .
+
+:_641 :connectsTo :_642 .
+
+:_642 :connectsTo :_643 .
+
+:_643 :connectsTo :_645 .
+
+:_645 :connectsTo :_646 .
+
+:_646 :connectsTo :_647 .
+
+:_647 :connectsTo :_648 .
+
+:_648 :connectsTo :_649 .
+
+:_649 :connectsTo :_651 .
+
+:_651 :connectsTo :_652 .
+
+:_652 :connectsTo :_653 .
+
+:_653 :connectsTo :_654 .
+
+:_654 :connectsTo :_655 .
+
+:_655 :connectsTo :_657 .
+
+:_657 :connectsTo :_658 .
+
+:_658 :connectsTo :_659 .
+
+:_659 :connectsTo :_660 .
+
+:_660 :connectsTo :_661 .
+
+:_661 :connectsTo :_663 .
+
+:_663 :connectsTo :_664 .
+
+:_664 :connectsTo :_665 .
+
+:_665 :connectsTo :_666 .
+
+:_666 :connectsTo :_667 .
+
+:_667 :connectsTo :_669 .
+
+:_669 :connectsTo :_670 .
+
+:_670 :connectsTo :_671 .
+
+:_671 :connectsTo :_672 .
+
+:_672 :connectsTo :_673 .
+
+:_673 :connectsTo :_675 .
+
+:_675 :connectsTo :_677 .
+
+:_677 :connectsTo :_678 .
+
+:_678 :connectsTo :_679 .
+
+:_679 :connectsTo :_680 .
+
+:_680 :connectsTo :_681 .
+
+:_681 :connectsTo :_683 .
+
+:_683 :connectsTo :_684 .
+
+:_684 :connectsTo :_685 .
+
+:_685 :connectsTo :_686 .
+
+:_686 :connectsTo :_687 .
+
+:_687 :connectsTo :_689 .
+
+:_689 :connectsTo :_690 .
+
+:_690 :connectsTo :_691 .
+
+:_691 :connectsTo :_692 .
+
+:_692 :connectsTo :_693 .
+
+:_693 :connectsTo :_694 .
+
+:_694 :connectsTo :_696 .
+
+:_696 :connectsTo :_698 .
+
+:_698 :connectsTo :_699 .
+
+:_699 :connectsTo :_700 .
+
+:_700 :connectsTo :_701 .
+
+:_701 :connectsTo :_702 .
+
+:_702 :connectsTo :_704 .
+
+:_704 :connectsTo :_705 .
+
+:_705 :connectsTo :_706 .
+
+:_706 :connectsTo :_707 .
+
+:_707 :connectsTo :_708 .
+
+:_708 :connectsTo :_710 .
+
+:_710 :connectsTo :_711 .
+
+:_711 :connectsTo :_712 .
+
+:_712 :connectsTo :_713 .
+
+:_713 :connectsTo :_714 .
+
+:_714 :connectsTo :_716 .
+
+:_716 :connectsTo :_717 .
+
+:_717 :connectsTo :_718 .
+
+:_718 :connectsTo :_719 .
+
+:_719 :connectsTo :_720 .
+
+:_720 :connectsTo :_722 .
+
+:_722 :connectsTo :_723 .
+
+:_723 :connectsTo :_724 .
+
+:_724 :connectsTo :_725 .
+
+:_725 :connectsTo :_726 .
+
+:_726 :connectsTo :_728 .
+
+:_728 :connectsTo :_729 .
+
+:_729 :connectsTo :_730 .
+
+:_730 :connectsTo :_731 .
+
+:_731 :connectsTo :_732 .
+
+:_732 :connectsTo :_734 .
+
+:_734 :connectsTo :_736 .
+
+:_736 :connectsTo :_737 .
+
+:_737 :connectsTo :_738 .
+
+:_738 :connectsTo :_739 .
+
+:_739 :connectsTo :_740 .
+
+:_619 :connectsTo :_623 .
+
+:_740 :connectsTo :_5 .
+
